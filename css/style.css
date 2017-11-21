@@ -1,0 +1,105 @@
+body {
+  text-align: center;
+  margin: 0;
+}
+header{
+  background-color: #212F3D;
+  padding: 30px 20px;
+}
+nav {
+  background-color: #00A6B3;
+  padding:20px 0;
+}
+main {
+  width: 850px;
+  margin: 35px auto 0;
+}
+
+img{
+  margin: 40px 8px;
+}
+h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 45px;
+    margin: 0;
+}
+h2{
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #212F3D;
+  text-align: left;
+}
+a{
+  font-family: 'Pacifico', cursive;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 20px;
+  border-bottom: 2px solid transparent;
+}
+
+a:hover {
+  border-bottom-color: white;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+p {
+  line-height: 26px;
+  font-size: 18px;
+  font-family: 'Questrial', sans-serif;
+}
+
+footer {
+  text-transform: uppercase;
+  padding: 0 20px;
+  background-color: #0D2C40;
+  color: white;
+  font-size: 14px;
+  letter-spacing: .08em;
+  font-weight: 500;
+}
+
+#link-0, #link-1, #link-2 {
+  color: #95A5A6;
+}
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+.name {
+  color: #F15B31;
+  font-weight: 700;
+}
+
+.copyright {
+  float: left;
+}
+
+.message {
+  float: right;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+#about-Ayana {
+  font-family: 'Indie Flower', cursive;
+}
+.card-descriptions {
+  font-family: 'Questrial', sans-serif;
+  padding: 10px 30px;
+}
