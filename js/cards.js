@@ -329,6 +329,453 @@ Negative: Self-made-prison."
    imagination, feeling, mind and matter. We are human and therefore imperfect \
    and the divine androgen is beyond our reach - there lies our total victory, \
    waiting for us all the time."
+},
+{
+  name: "ace of cups",
+  number: 22,
+  cardImage: "images/rwacecups.jpg",
+  info: "http://www.learntarot.com/ca.htm",
+  cardDescription:"The Ace of Cups represents The receptivity of feelings and emotions.\
+   The desire to express deep feelings with the urge toward relationship, \
+   bringing joy and passion. It is a great release of emotional raw energy \
+   after a period of control. It represents the unconscious, the 'dark side of the moon'\
+   . Productivity, plenty, sentimental ties, deep love for one self.\
+   Negative: Jealous, lazy, gullibility, vindictive, deceitful and treacherous."
+},
+{
+  name: "ace of wands",
+  number: 23,
+  cardImage: "images/rwacewands.jpg",
+  info: "http://www.learntarot.com/wa.htm",
+  cardDescription:"The Ace of Wands represents the initiator of vision and imagination \
+  moves from the safe and conventional world into the unknown \
+  towards an imagined goal. It is a beginning of the great journey into the world \
+  of vision and imagination. Element of fire, potential, sexual, creative power, \
+  force of nature, vitality, start of an activity, fertility, enthusiasm, individuality,\
+   originality, enterprise, new concepts towards trust, optimism.\
+Negative: Bulldozer, rash and impulsive action, dissatisfaction"
+},
+{
+  name: "ace of swords",
+  number: 24,
+  cardImage: "images/rwaceswords.jpg",
+  info: "http://www.learntarot.com/sa.htm",
+  cardDescription:"The Ace of Swords represents air and intelligence, being objective, \
+  the conception of an idea. Mind over matter. Honestly and dispelling doubts.  The start of a \
+  completely new concept. Conquest, outburst, fight, struggle before peace.\
+   Negative: Deliberate lie, a verbal outburst that one regrets, violence."
+},
+{
+  name: "ace of pentacles",
+  number: 25,
+  cardImage: "images/rwacepentacles.jpg",
+  info: "http://www.learntarot.com/pa.htm",
+  cardDescription:"Ace of Pentacles represents the power of earth and focusing on \
+  concrete results. Having a tangible impact and achieving real results \
+   A seed, the beginning of a venture, success, inner and outer richness, money from \
+   an unexpected source, gifts and contract, good earning, \
+   perspectives, work. \
+Negative: Sudden impulse to extravagance. "
+},
+{
+  name: "two of wands",
+  number: 26,
+  cardImage: "images/rw02wands.jpg",
+  info: "http://www.learntarot.com/w2.htm",
+  cardDescription:"The Two of Wands represents the fire of ambitions and aspirations. \
+   Creative will. personal power. .  Courage to take new ideas up in both hands\
+    to put faith in that invisible creative power which has generated the \
+    vision of the new path. Dominion, dynamic, pioneer.\
+Negative: Tendency to exaggerate."
+},
+{
+  name: "two of cups",
+  number: 27,
+  cardImage: "images/rw02cups.jpg",
+  info: "http://www.learntarot.com/c2.htm",
+  cardDescription:"The Two of Cups represents love, happy relationship, harmony,\
+   receptivity, and a desire for openness and honesty. Connecting. Mutuality. \
+   Bonding\
+Negative: A regretted one-night stand."
+},
+{
+  name: "two of swords",
+  number: 28,
+  cardImage: "images/rw02swords.jpg",
+  info: "http://www.learntarot.com/s2.htm",
+  cardDescription:"The Two of Swords represents an idea communicated to another,\
+   awaiting response or proposition. A new contact with possibilities, with \
+   excitement, interest and uncertainty - a desired movement strength gained \
+   from change. It can also be a conflict of opposing principles, a created \
+   standstill, a state of tension which demands a choice of some kind. \
+   The unpleasant reality must be faced, the conformity, the fight in suspense,\
+    the mistrust needs balance and inner peace.\
+Negative: Period of frustration and impasse in negotiations or discussions."
+},
+{
+  name: "two of pentacles",
+  number: 29,
+  cardImage: "images/rw02pentacles.jpg",
+  info: "http://www.learntarot.com/p2.htm",
+  cardDescription:"The Two of Pentacles represents exchange, developing, creating\
+   together, building up, use of natural, present, available power to invest effort \
+   in new projects. Willingness to try several things at once and to take risks to \
+   utilize talents. It needs flexibility and change is the support of stability.\
+    It means willingness to put money and energy to work and shifting resources,\
+     play with money. Transformation, friction, progress, renewal.\
+Negative: Greed for material gain, weighing up one thing against another, naivet \
+premature reaction."
+},
+{
+  name: "three of wands",
+  number: 30,
+  cardImage: "images/rw03wands.jpg",
+  info: "http://www.learntarot.com/w3.htm",
+  cardDescription:"The Three of Wands represents exploration.  A good foundation has\
+   been laid, enthusiasm is high, new plans are being put in action and hard work is ahead.\
+  Leadership is inevitable and having forsight is crucial.\
+  Negative: Moral, conceit, not willing to finish a potential idea to realize it \
+  totally, unfinished projects."
+},
+{
+  name: "three of cups",
+  number: 31,
+  cardImage: "images/rw03cups.jpg",
+  info: "http://www.learntarot.com/c3.htm",
+  cardDescription:"The Three of Cups represents community and friendship. \
+  Feelings are expressed, accepted, and shared.  The healing power of true unselfish love.\
+   New dimension of life is unfolding, the feeling of joy and promise.\
+    This is a transition card heralding further developments. Enjoy it.\
+    Negative: Receiving envy."
+},
+{
+  name: "three of swords",
+  number: 32,
+  cardImage: "images/rw03swords.jpg",
+  info: "http://www.learntarot.com/s3.htm",
+  cardDescription:"The Three of Swords represents conflict and betrayal. \
+   The pain from separation or heartbreak. There is discord, struggle, doubt, and \
+   sorrow and out of mind-chaos. It is heavy and dark.\
+Negative: 'Know it all', personality attacks blindness, secrecy, perversion."
+},
+{
+  name: "three of pentacles",
+  number: 33,
+  cardImage: "images/rw03pentacles.jpg",
+  info: "http://www.learntarot.com/p3.htm",
+  cardDescription: "The Three of Pentacles represents teamwork and business skills.\
+  Working with others effectively and competently getting the work done.\
+Negative: Overindulgence, conceit."
+},
+{
+  name: "four of wands",
+  number: 34,
+  cardImage: "images/rw04wands.jpg",
+  info: "http://www.learntarot.com/w4.htm",
+  cardDescription:"The Four of Wands represents celebrating freedom and feeling excitement.\
+  It is a time of being rewarded for efforts made. \
+Negative: Exclusivity, snobbery."
+},
+{
+  name: "four of cups",
+  number: 35,
+  cardImage: "images/rw04cups.jpg",
+  info: "http://www.learntarot.com/c4.htm",
+  cardDescription:
+},
+{
+  name: "four of swords",
+  number: 36,
+  cardImage: "images/rw04swords.jpg",
+  info: "http://www.learntarot.com/s4.htm",
+  cardDescription:
+},
+{
+  name: "four of pentacles",
+  number: 37,
+  cardImage: "images/rw04pentacles.jpg",
+  info: "http://www.learntarot.com/p4.htm",
+  cardDescription:
+},
+{
+  name: "five of wands",
+  number: 38,
+  cardImage: "images/rw05wands.jpg",
+  info: "http://www.learntarot.com/w5.htm",
+  cardDescription:
+},
+{
+  name: "five of cups",
+  number: 39,
+  cardImage: "images/rw05cups.jpg",
+  info: "http://www.learntarot.com/c5.htm",
+  cardDescription:
+},
+{
+  name: "five of swords",
+  number: 40,
+  cardImage: "images/rw05swords.jpg",
+  info: "http://www.learntarot.com/s5.htm",
+  cardDescription:
+},
+{
+  name: "five of pentacles",
+  number: 41,
+  cardImage: "images/rw05pentacles.jpg",
+  info: "http://www.learntarot.com/p5.htm",
+  cardDescription:
+},
+{
+  name: "six of wands",
+  number: 42,
+  cardImage: "images/rw06wands.jpg",
+  info: "http://www.learntarot.com/w6.htm",
+  cardDescription:
+},
+{
+  name: "six of cups",
+  number: 43,
+  cardImage: "images/rw06cups.jpg",
+  info: "http://www.learntarot.com/c6.htm",
+  cardDescription:
+},
+{
+  name: "six of swords",
+  number: 44,
+  cardImage: "images/rw06swords.jpg",
+  info: "http://www.learntarot.com/s6.htm",
+  cardDescription:
+},
+{
+  name: "six of pentacles",
+  number: 45,
+  cardImage: "images/rw06pentacles.jpg",
+  info: "http://www.learntarot.com/p6.htm",
+  cardDescription:
+},
+{
+  name: "seven of wands",
+  number: 46,
+  cardImage: "images/rw07wands.jpg",
+  info: "http://www.learntarot.com/w7.htm",
+  cardDescription:
+},
+{
+  name: "seven of cups",
+  number: 47,
+  cardImage: "images/rw07cups.jpg",
+  info: "http://www.learntarot.com/c7.htm",
+  cardDescription:
+},
+{
+  name: "seven of swords",
+  number: 48,
+  cardImage: "images/rw07swords.jpg",
+  info: "http://www.learntarot.com/s7.htm",
+  cardDescription:
+},
+{
+  name: "seven of pentacles",
+  number: 49,
+  cardImage: "images/rw07pentacles.jpg",
+  info: "http://www.learntarot.com/p7.htm",
+  cardDescription:
+},
+{
+  name: "eight of wands",
+  number: 50,
+  cardImage: "images/rw08wands.jpg",
+  info: "http://www.learntarot.com/w8.htm",
+  cardDescription:
+},
+{
+  name: "eight of cups",
+  number: 51,
+  cardImage: "images/rw08cups.jpg",
+  info: "http://www.learntarot.com/c8.htm",
+  cardDescription:
+},
+{
+  name: "eight of swords",
+  number: 52,
+  cardImage: "images/rw08swords.jpg",
+  info: "http://www.learntarot.com/s8.htm",
+  cardDescription:
+},
+{
+  name: "eight of pentacles",
+  number: 53,
+  cardImage: "images/rw08pentacles.jpg",
+  info: "http://www.learntarot.com/p8.htm",
+  cardDescription:
+},
+{
+  name: "nine of wands",
+  number: 54,
+  cardImage: "images/rw09wands.jpg",
+  info: "http://www.learntarot.com/w9.htm",
+  cardDescription:
+},
+{
+  name: "nine of cups",
+  number: 55,
+  cardImage: "images/rw09cups.jpg",
+  info: "http://www.learntarot.com/c9.htm",
+  cardDescription:
+},
+{
+  name: "nine of swords",
+  number: 56,
+  cardImage: "images/rw09swords.jpg",
+  info: "http://www.learntarot.com/s9.htm",
+  cardDescription:
+},
+{
+  name: "nine of pentacles",
+  number: 57,
+  cardImage: "images/rw09pentacles.jpg",
+  info: "http://www.learntarot.com/p9.htm",
+  cardDescription:
+},
+{
+  name: "10 of wands",
+  number: 58,
+  cardImage: "images/rw10wands.jpg",
+  info: "http://www.learntarot.com/w10.htm",
+  cardDescription:
+},
+{
+  name: "10 of cups",
+  number: 59,
+  cardImage: "images/rw10cups.jpg",
+  info: "http://www.learntarot.com/c10.htm",
+  cardDescription:
+},
+{
+  name: "ten of swords",
+  number: 60,
+  cardImage: "images/rw10swords.jpg",
+  info: "http://www.learntarot.com/s10.htm",
+  cardDescription:
+},
+{
+  name: "ten of pentacles",
+  number: 61,
+  cardImage: "images/rw10pentacles.jpg",
+  info: "http://www.learntarot.com/p10.htm",
+  cardDescription:
+},
+{
+  name: "page of wands",
+  number: 62,
+  cardImage: "images/rwpagewands.jpg",
+  info: "http://www.learntarot.com/wpg.htm",
+  cardDescription:
+},
+{
+  name: "page of cups",
+  number: 63,
+  cardImage: "images/rwpagecups.jpg",
+  info: "http://www.learntarot.com/cpg.htm",
+  cardDescription:
+},
+{
+  name: "page of swords",
+  number: 64,
+  cardImage: "images/rwpageswords.jpg",
+  info: "http://www.learntarot.com/spg.htm",
+  cardDescription:
+},
+{
+  name: "page of pentacles",
+  number: 65,
+  cardImage: "images/rwpagepentacles.jpg",
+  info: "http://www.learntarot.com/ppg.htm",
+  cardDescription:
+},
+{
+  name: "knight of wands",
+  number: 66,
+  cardImage: "images/rwknightwands.jpg",
+  info: "http://www.learntarot.com/wkn.htm",
+  cardDescription:
+},
+{
+  name: "knight of cups",
+  number: 67,
+  cardImage: "images/rwknightcups.jpg",
+  info: "http://www.learntarot.com/ckn.htm",
+  cardDescription:
+},
+{
+  name: "knight of swords",
+  number: 68,
+  cardImage: "images/rwknightswords.jpg",
+  info: "http://www.learntarot.com/skn.htm",
+  cardDescription:
+},
+{
+  name: "knight of pentacles",
+  number: 69,
+  cardImage: "images/rwknightpentacles.jpg",
+  info: "http://www.learntarot.com/pkn.htm",
+  cardDescription:
+},
+{
+  name: "queen of wands",
+  number: 70,
+  cardImage: "images/rwqueenwands.jpg",
+  info: "http://www.learntarot.com/wqn.htm",
+  cardDescription:
+},
+{
+  name: "queen of cups",
+  number: 71,
+  cardImage: "images/rwqueencups.jpg",
+  info: "http://www.learntarot.com/cqn.htm",
+  cardDescription:
+},
+{
+  name: "queen of swords",
+  number: 72,
+  cardImage: "images/rwqueenswords.jpg",
+  info: "http://www.learntarot.com/sqn.htm",
+  cardDescription:
+},
+{
+  name: "queen of pentacles",
+  number: 73,
+  cardImage: "images/rwqueenpentacles.jpg",
+  info: "http://www.learntarot.com/pqn.htm",
+  cardDescription:
+},
+{
+  name: "king of wands",
+  number: 74,
+  cardImage: "images/rwkingwands.jpg",
+  info: "http://www.learntarot.com/wkg.htm",
+  cardDescription:
+},
+{
+  name: "king of cups",
+  number: 75,
+  cardImage: "images/rwkingcups.jpg",
+  info: "http://www.learntarot.com/ckg.htm",
+  cardDescription:
+},
+{
+  name: "king of swords",
+  number: 76,
+  cardImage: "images/rwkingswords.jpg",
+  info: "http://www.learntarot.com/skg.htm",
+  cardDescription:
+},
+{
+  name: "king of pentacles",
+  number: 77,
+  cardImage: "images/rwkingpentacles.jpg",
+  info: "http://www.learntarot.com/skg.htm",
+  cardDescription:
 }
 
 
