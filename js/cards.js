@@ -481,303 +481,433 @@ Negative: Exclusivity, snobbery."
   number: 35,
   cardImage: "images/rw04cups.jpg",
   info: "http://www.learntarot.com/c4.htm",
-  cardDescription:
+  cardDescription:"The Four of Cups represents going within.  Sometimes \
+  with apathy and self-absorbtion. It contents a shadow side which forces \
+  us to explore more deeply and demand more honesty in our emotional dealings \
+  with others.\
+Negative: Becoming accustomed, motionless, depression. "
 },
 {
   name: "four of swords",
   number: 36,
   cardImage: "images/rw04swords.jpg",
   info: "http://www.learntarot.com/s4.htm",
-  cardDescription:
+  cardDescription:"The Four of Swords represents a quiet time of withdrawal and \
+  contemplation, a period of introversion and reflection, of emotional recuperation \
+  after the outbreak of conflict. It means accept solitude and rest from sorrow so \
+  peace of mind and liberation can happen. \
+Negative: Isolation, prison, loneliness, rigidity and conformity of mind, inflexible \
+views and ideas, bigotry. "
 },
 {
   name: "four of pentacles",
   number: 37,
   cardImage: "images/rw04pentacles.jpg",
   info: "http://www.learntarot.com/p4.htm",
-  cardDescription:
+  cardDescription:"The Four of Pentacles represents achievement of financial and \
+  material security. Being established and successful in one's career or ambitions. \
+  The manifestation of self-worth through material values. \
+Negative: Stagnation, greed, anger, fear of letting go, control of the body, \
+block of self-expression."
 },
 {
   name: "five of wands",
   number: 38,
   cardImage: "images/rw05wands.jpg",
   info: "http://www.learntarot.com/w5.htm",
-  cardDescription:
+  cardDescription:"The Five of Wands represents the battle with the dragon. \
+  Disagreeing and Competing.  This card can represent conflict, and aggression. \
+   Negative: Violence, cruelty, fear of failure, deep apathy, resisting change."
 },
 {
   name: "five of cups",
   number: 39,
   cardImage: "images/rw05cups.jpg",
   info: "http://www.learntarot.com/c5.htm",
-  cardDescription:
+  cardDescription:"The Five of Cups represents disappointment, disturbance of ease,\
+   misunderstanding and loss. This provoking inevitable conflict brings sadness. \
+   Remorse and separation can occur but it is not a final ending. Something \
+   remains which can be faced and worked on, take up the challenge and make \
+   the commitment to the future.\
+Negative: Giving up to fate by refusing to deal with reality. "
 },
 {
   name: "five of swords",
   number: 40,
   cardImage: "images/rw05swords.jpg",
   info: "http://www.learntarot.com/s5.htm",
-  cardDescription:
+  cardDescription:"The Five of Swords represents being forced by circumstances \
+  to see things from a different angle. Acting in disharmony with others for \
+  self-interest. Negative: hostility, deceit."
 },
 {
   name: "five of pentacles",
   number: 41,
   cardImage: "images/rw05pentacles.jpg",
   info: "http://www.learntarot.com/p5.htm",
-  cardDescription:
+  cardDescription:"The Five of Pentacles represents loss. It could be financial \
+  loss, loss of faith in oneself, or marital troubles.  This can cause confusion \
+  of self-value with material security.  Prepare to begin again and move from a \
+  position of security to the unknown.Negative: Worry, heavy, slow, obstinate."
 },
 {
   name: "six of wands",
   number: 42,
   cardImage: "images/rw06wands.jpg",
   info: "http://www.learntarot.com/w6.htm",
-  cardDescription:
+  cardDescription:"The Six of Wands represents victory, triumph - a clear break \
+  through.  The pleasure of receiving recognition for one's achievements. Also \
+  satisfaction and confidence in one's abilities and promotion after dedicated \
+  work. Negative: Using one's reputation to bully and domineer others."
 },
 {
   name: "six of cups",
   number: 43,
   cardImage: "images/rw06cups.jpg",
   info: "http://www.learntarot.com/c6.htm",
-  cardDescription:
+  cardDescription:"The Six of Cups represents unconditional love and innocence.\
+   Harmonious uniting of the conscious and the unconscious, the masculine and \
+   the feminine.  At peace with yourself Negative: Living in a dream, escapism."
 },
 {
   name: "six of swords",
   number: 44,
   cardImage: "images/rw06swords.jpg",
   info: "http://www.learntarot.com/s6.htm",
-  cardDescription:
+  cardDescription:"The Six of Swords represents moving away from turbulent, difficult\
+   feelings toward a calmer and more serene state - the tranquil mind, the learning \
+   intellect, successful mental activity. Feeling down, and recovering from earlier\
+    troubles.  Travel, broadening horizons both mentally and physically. \
+    Negative: Using smooth talk to deceive and manipulate."
 },
 {
   name: "six of pentacles",
   number: 45,
   cardImage: "images/rw06pentacles.jpg",
   info: "http://www.learntarot.com/p6.htm",
-  cardDescription:
+  cardDescription:"The Six of Pentacles represents having/not having money. \
+  Being in harmony with your money. Charity and Power. Balance between debit \
+  and credit, money or substance to be shared, restoration through the generosity \
+  or charity of others, renewal of faith and success.\
+Negative: Overindulgence, exaggerated."
 },
 {
   name: "seven of wands",
   number: 46,
   cardImage: "images/rw07wands.jpg",
   info: "http://www.learntarot.com/w7.htm",
-  cardDescription:
+  cardDescription:"The Seven of Wands represents extraordinary effort. \
+  Being aggressive and assertive. The individual is challenged to improve \
+  upon and develop his or her project in the face of an envious and competitive\
+   world. Negative: Struggle with other people's creative ideas, stiff competition."
 },
 {
   name: "seven of cups",
   number: 47,
   cardImage: "images/rw07cups.jpg",
   info: "http://www.learntarot.com/c7.htm",
-  cardDescription:
+  cardDescription:"The Seven of Cups represents wishful thinking and having a \
+  lot of options.  Emotional situation where many potentials are evident, \
+  but where one may be faced with the challenge of making those potentials \
+  manifest. Negative: Internal corruption, stagnation, bog, using and manipulating \
+  the emotions of others for personal gain."
 },
 {
   name: "seven of swords",
   number: 48,
   cardImage: "images/rw07swords.jpg",
   info: "http://www.learntarot.com/s7.htm",
-  cardDescription:
+  cardDescription:"The Seven of Swords represents the application of mental energy \
+  in a cautious and wily way.  Working alone and without honor. Running away to avoid\
+   responsibilities. Negative: Opposing convention just to draw attention to oneself."
 },
 {
   name: "seven of pentacles",
   number: 49,
   cardImage: "images/rw07pentacles.jpg",
   info: "http://www.learntarot.com/p7.htm",
-  cardDescription:
+  cardDescription:"The Seven of Pentacles represents assessment and evaluation of \
+  one’s current progress.  It represents being rewarded for hard work and considering\
+   changing directions. Negative: Danger of stagnation, misfortune, lack of vitality,\
+    unorthodox behavior for effect."
 },
 {
   name: "eight of wands",
   number: 50,
   cardImage: "images/rw08wands.jpg",
   info: "http://www.learntarot.com/w8.htm",
-  cardDescription:
+  cardDescription:"The Eight of Wands represents the freedom and space to move \
+  forward after recent struggles that have been overcome. Energy, Movement, \
+  Conclusion.  Taking immediate action.  \
+Negative: Being trapped by your own reputation, violent but not lasting."
 },
 {
   name: "eight of cups",
   number: 51,
   cardImage: "images/rw08cups.jpg",
   info: "http://www.learntarot.com/c8.htm",
-  cardDescription:
+  cardDescription:"The Eight of Cups is about having the emotional strength to \
+  withdraw and find inner truth,  This brings a slowing down and entry to emotional\
+   expression. Leaving the current situation if it is not going anywhere. Being tired\
+    and weary.  Negative: Indolence, cold self-interest and detachment."
 },
 {
   name: "eight of swords",
   number: 52,
   cardImage: "images/rw08swords.jpg",
   info: "http://www.learntarot.com/s8.htm",
-  cardDescription:
+  cardDescription:"The Eight of Swords represents the feelings of being trapped, \
+  confusion and powerlessness.  Isolation and imprisonment. A way is apparent, \
+  but unseen because of the blinders.\
+Negative: Anguish caused by too much reflection, incapable to act because of \
+fear of the consequences, dullness, manic-depressive."
 },
 {
   name: "eight of pentacles",
   number: 53,
   cardImage: "images/rw08pentacles.jpg",
   info: "http://www.learntarot.com/p8.htm",
-  cardDescription:
+  cardDescription:"The Eight of Pentacles represents diligence and acquiring \
+  knowledge and skill.  It is about seeking training and paying close attention \
+  to details. Negative: Perfectionism and lack of focus."
 },
 {
   name: "nine of wands",
   number: 54,
   cardImage: "images/rw09wands.jpg",
   info: "http://www.learntarot.com/w9.htm",
-  cardDescription:
+  cardDescription:"The Nine of Wands represents resilience, defending yourself and \
+  perseverance.  This card is urges you to keep going - even if you feel like you \
+  are at the end of your rope. Success is coming soon. It also warns you to proceed \
+  carefully.  Negative: Cruelty through extreme self-detachment."
 },
 {
   name: "nine of cups",
   number: 55,
   cardImage: "images/rw09cups.jpg",
   info: "http://www.learntarot.com/c9.htm",
-  cardDescription:
+  cardDescription:"The Nine of Cups represents fullness and completion.  Satisfaction\
+   and wish fulfillment.  This card urges you to take pleasure in your current \
+   physical circumstance.   Negative: Over-indulgence. "
 },
 {
   name: "nine of swords",
   number: 56,
   cardImage: "images/rw09swords.jpg",
   info: "http://www.learntarot.com/s9.htm",
-  cardDescription:
+  cardDescription:"The Nine of Swords represents fear and anxiety.  A nightmare \
+  and despair. This card is about excessively worrying about a situation and feelings\
+   of guilt.  Negative: Agony."
 },
 {
   name: "nine of pentacles",
   number: 57,
   cardImage: "images/rw09pentacles.jpg",
   info: "http://www.learntarot.com/p9.htm",
-  cardDescription:
+  cardDescription:"The Nine of Pentacles is about pleasure in self-sufficiency, \
+  accomplishment and the power of one's wealth.  This card is about being disciplined\
+   enough to reach these accomplishments and achieving success on one’s own merits\
+Negative: self-centered, workaholic. "
 },
 {
   name: "10 of wands",
   number: 58,
   cardImage: "images/rw10wands.jpg",
   info: "http://www.learntarot.com/w10.htm",
-  cardDescription:
+  cardDescription:"The Ten of Wands represents the burden of responsibility and \
+  overextending oneself.  This card is about struggling for achievement and stressing\
+   and struggling against resistance."
 },
 {
   name: "10 of cups",
   number: 59,
   cardImage: "images/rw10cups.jpg",
   info: "http://www.learntarot.com/c10.htm",
-  cardDescription:
+  cardDescription:"The Ten of Cups is about healing and coming together to enjoy\
+   the fruits of life. The cup is overflowing, and the feeling of joy and peace \
+   are abundant. A larger, brighter world appears before one's vision.  \
+   Negative: Money, sex, alcohol or drugs as an escape, rigid, delay the \
+   inevitable crises."
 },
 {
   name: "ten of swords",
   number: 60,
   cardImage: "images/rw10swords.jpg",
   info: "http://www.learntarot.com/s10.htm",
-  cardDescription:
+  cardDescription:"The Ten of Swords is about a painful ending.  Being betrayed \
+  and feeling victimized.  Also, feeling like a martyr and losing the battle - \
+  but looking towards a new start.  Negative: Discomfort, Out of control."
 },
 {
   name: "ten of pentacles",
   number: 61,
   cardImage: "images/rw10pentacles.jpg",
   info: "http://www.learntarot.com/p10.htm",
-  cardDescription:
+  cardDescription:"The Ten of Pentacles is about wealth - inside and outside and \
+  the ability to pass it on. Family, inheritance, and perpetual affluence.  \
+  It also represents following the rules and honoring tradition.\
+Negative: Hanging on to what is already lost, because of fear of the unknown."
 },
 {
   name: "page of wands",
   number: 62,
   cardImage: "images/rwpagewands.jpg",
   info: "http://www.learntarot.com/wpg.htm",
-  cardDescription:
+  cardDescription:""
 },
 {
   name: "page of cups",
   number: 63,
   cardImage: "images/rwpagecups.jpg",
   info: "http://www.learntarot.com/cpg.htm",
-  cardDescription:
+  cardDescription:"The Page of Cups represents creative beginnings and synchronicity.\
+    He urges us to be emotional, intuitive, and intimate.  He is a lover.  This \
+    delicate quality must be nurtured or it can rapidly vanish. It's about seeing \
+    the pleasure life gives and the discovery of one's own worthiness of being \
+    loved.Negative: Selfishness."
 },
 {
   name: "page of swords",
   number: 64,
   cardImage: "images/rwpageswords.jpg",
   info: "http://www.learntarot.com/spg.htm",
-  cardDescription:
+  cardDescription:"The Page of Swords represents an abundance of energy, passion, \
+  and curiosity.  He is anxious to get started on a new idea.  He is talkative, \
+  restless, and energetic.   Negative: gossip, lack of follow-through."
 },
 {
   name: "page of pentacles",
   number: 65,
   cardImage: "images/rwpagepentacles.jpg",
   info: "http://www.learntarot.com/ppg.htm",
-  cardDescription:
+  cardDescription:"The Page of Pentacles represents being practical and making an \
+  impact.  He is prosperous and realistic.  Trustworthy.  New financial opportunities. \
+Negative: Poor planning.  Short-term focus."
 },
 {
   name: "knight of wands",
   number: 66,
   cardImage: "images/rwknightwands.jpg",
   info: "http://www.learntarot.com/wkn.htm",
-  cardDescription:
+  cardDescription:"The Knight of Wands represents self-confidence, energetic, and \
+  passion. Having adventurous qualities, being in motion, seeking new challenges, \
+  and imaginative.  He needs excitement and attention and an occupation. \
+  Negative: Pushy, superficial, and cocky."
 },
 {
   name: "knight of cups",
   number: 67,
   cardImage: "images/rwknightcups.jpg",
   info: "http://www.learntarot.com/ckn.htm",
-  cardDescription:
+  cardDescription:"The Knight of Cups represents romantic, idyllic, and imaginative\
+   feelings.   With his receptivity he is intuitive and even clairvoyant, but at the \
+   same time highly impressionable, sensitive, and moody. Negative: Dramatic, \
+   Fanciful, and Temperamental."
 },
 {
   name: "knight of swords",
   number: 68,
   cardImage: "images/rwknightswords.jpg",
   info: "http://www.learntarot.com/skn.htm",
-  cardDescription:
+  cardDescription:"The Knight of Swords represents bluntness, authoritative \
+  leadership and being opinionated. This brings conflict and movement.  Victory \
+  over moods, communication, exchange of ideas Negative: Merciless, destruction, \
+  critical and tactless."
 },
 {
   name: "knight of pentacles",
   number: 69,
   cardImage: "images/rwknightpentacles.jpg",
   info: "http://www.learntarot.com/pkn.htm",
-  cardDescription:
+  cardDescription:"The Knight of Pentacles represents unwavering pursuit.  \
+  Stubborn and cautious. Routine and Conservative. Stability and security \
+  Negative: Lazy, Feeling stuck, and pessimistic."
 },
 {
   name: "queen of wands",
   number: 70,
   cardImage: "images/rwqueenwands.jpg",
   info: "http://www.learntarot.com/wqn.htm",
-  cardDescription:
+  cardDescription: "The Queen of Wands is about being warm, vibrant, and determined.\
+   She is a self-confident and strong-willed individual, devotes her qualities \
+   to those few things to which she has given her heart. Also versatile, positive \
+   and caring in her actions and choices, she has the desire to become a public \
+   figure, with a good feeling for public taste she can be direct and tranquil to \
+   share her vision of birth and creation. \
+   Negative: Domination, capriciousness, thirst for revenge. "
 },
 {
   name: "queen of cups",
   number: 71,
   cardImage: "images/rwqueencups.jpg",
   info: "http://www.learntarot.com/cqn.htm",
-  cardDescription:
+  cardDescription:"The Queen of Cups represents loving empathy and compassion.  \
+  She is intuitive, psychic, and spiritual.  \
+Negative: Stirs up trouble wherever she goes, defies rational analysis, \
+can live her life through others and neglect her own reality."
 },
 {
   name: "queen of swords",
   number: 72,
   cardImage: "images/rwqueenswords.jpg",
   info: "http://www.learntarot.com/sqn.htm",
-  cardDescription:
+  cardDescription:"The Queen of Swords represents honesty, intelligence, and wit. \
+   She is open and direct in all her dealings.  She is  experienced, independent, \
+   and organized. \
+Negative: Loneliness, perfection, and controlled emotions."
 },
 {
   name: "queen of pentacles",
   number: 73,
   cardImage: "images/rwqueenpentacles.jpg",
   info: "http://www.learntarot.com/pqn.htm",
-  cardDescription:
+  cardDescription:"The Queen of Pentacles represents nurturing resourcefulness.  \
+  She is down to earth and  big-hearted.  She gives generously gives material \
+  help and is willing to indulge herself and others if it suits her purposes.\
+Negative: A slave to her own generosity. Imbalance of work/family life."
 },
 {
   name: "king of wands",
   number: 74,
   cardImage: "images/rwkingwands.jpg",
   info: "http://www.learntarot.com/wkg.htm",
-  cardDescription:
+  cardDescription:"The King of Wands is about creatively developing inspiring \
+  projects, being bold. Being charismatic and influential.  This is a personality \
+  which initiates new ideas and sells them to others. With his spirit of leadership\
+   he has a steady power to manifest his visions, he is outgoing, impulsive and with\
+    the element of fire, which symbolizes the creative imagination, he generates \
+    change, he is enthusiastic and has self-confidence. Negative: Impatience, \
+    dominating, chauvinist, selfish."
 },
 {
   name: "king of cups",
   number: 75,
   cardImage: "images/rwkingcups.jpg",
   info: "http://www.learntarot.com/ckg.htm",
-  cardDescription:
+  cardDescription:"The King of Cups represents being balanced, wise, calm and caring.\
+    A generous man full of love, available to others, and who wants to help and \
+    guide others.  \
+Negative: He can manipulate people through their emotions."
 },
 {
   name: "king of swords",
   number: 76,
   cardImage: "images/rwkingswords.jpg",
   info: "http://www.learntarot.com/skg.htm",
-  cardDescription:
+  cardDescription:"The King of Swords represents clarity of thought, intellectual \
+  expertise and authority.   He is analytical, articulate, ethical and truthful.  \
+  This card urges you to be like him: just, communicative, and logical.\
+Negative: Manipulates others for his own gain, a lack of being connected, \
+untrustworthy."
 },
 {
   name: "king of pentacles",
   number: 77,
   cardImage: "images/rwkingpentacles.jpg",
   info: "http://www.learntarot.com/skg.htm",
-  cardDescription:
+  cardDescription:"The King of Pentacles represents natural abilities, quick reflexes\
+   and competence.  He is enterprising, successful and secure.  Reliable and \
+   supportive.  He has abundance and power.\
+Negative: Corruption, Authoritative, and Controlling."
 }
-
-
-
 ];
