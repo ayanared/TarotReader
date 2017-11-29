@@ -3,11 +3,17 @@ var cardsInPlay=[];
 
 var flipCard = function(){
 
+  //get random card
   cardId = Math.floor(Math.random() * cards.length);
+  
+  //put card in cardsInPlay array
+  cardsInPlay.push(cards[cardId].name);
+  //get card position
   var descriptionNum = this.getAttribute('data-id');
+  //get the card Description to display
   var descriptionText = cards[cardId].cardDescription;
   document.getElementById('description-'+ descriptionNum).innerHTML = descriptionText;
-  cardsInPlay.push(cards[cardId].name);
+
   this.setAttribute('src', cards[cardId].cardImage);
   this.removeEventListener('click', flipCard);
   var linkId = document.getElementById("link-"+descriptionNum);
