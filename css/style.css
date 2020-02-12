@@ -1,6 +1,8 @@
 body {
   text-align: center;
   margin: 0;
+  font-family: 'Lato', san-serif;
+
 }
 header{
   background-color: #212F3D;
@@ -15,13 +17,10 @@ main {
   margin: 35px auto 0;
 }
 
-
-
 img{
   margin: 0px 8px;
 }
 h1 {
-    font-family: 'Gloria Hallelujah', cursive;
     color: white;
     letter-spacing: 1px;
     font-weight: 400;
@@ -29,12 +28,10 @@ h1 {
     margin: 0;
 }
 h2{
-  font-family: 'Gloria Hallelujah', cursive;
   color: #212F3D;
   text-align: left;
 }
 a{
-  font-family: 'Pacifico', cursive;
   color: white;
   letter-spacing: 1px;
   font-weight: 600;
@@ -44,13 +41,13 @@ a{
 }
 
 a:hover {
+  color: white;
   border-bottom-color: white;
+  text-decoration: none;
 }
 
 h3 {
   text-align: center;
-  font-family: "Raleway", sans-serif;
-  font-family: 'Gloria Hallelujah', cursive;
 }
 
 p {
@@ -102,6 +99,5 @@ footer {
   font-family: 'Indie Flower', cursive;
 }
 .card-descriptions {
-  font-family: 'Questrial', sans-serif;
   padding: 10px 30px;
 }
