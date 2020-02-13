@@ -33,5 +33,6 @@ var createBoard = function (){
 
   }
 }
-
-createBoard();
+$(document).ready(function() {
+  createBoard();
+})
