@@ -24,11 +24,11 @@
     Pick type of Spread
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" id="past_present_future" href="#">Past, Present, Future</a>
-    <a class="dropdown-item" id="physical_emotional_spiritual" href="#">Physical State, Emotional State, Spiritual State</a>
-    <a class="dropdown-item" id="think_feel_do" href="#">What I think, What I feel, What I do</a>
-    <a class="dropdown-item" id="strength_weakness_advice" href="#">Strength, Weakness, Advice</a>
-    <a class="dropdown-item" id="op1_op2_choose" href="#">Option 1, Option 2, How to choose</a>
+    <a class="dropdown-item select-spread" id="past_present_future" href="#">Past, Present, Future</a>
+    <a class="dropdown-item select-spread" id="physical_emotional_spiritual" href="#">Physical State, Emotional State, Spiritual State</a>
+    <a class="dropdown-item select-spread" id="think_feel_do" href="#">What I think, What I feel, What I do</a>
+    <a class="dropdown-item select-spread" id="strength_weakness_advice" href="#">Strength, Weakness, Advice</a>
+    <a class="dropdown-item select-spread" id="op1_op2_choose" href="#">Option 1, Option 2, How to choose</a>
   </div>
 </div>
 <h2>Instructions</h2>
@@ -40,7 +40,7 @@
     <div id="game-board"class="board clearfix center">
       <table class="center">
         <tr>
-          <td><h3 >Card 1</h3></td> <td><h3>Card 2</h3></td> <td><h3>Card 2</h3></td>
+          <td><h4 class='card-1-name'>Card 1</h4></td> <td><h4 class='card-2-name'>Card 2</h4></td> <td><h4 class='card-3-name'>Card 2</h4></td>
             </tr>
         <tr> <td id="space-0"></td> <td id='space-1'></td> <td id='space-2'></td></tr>
       </table>
@@ -60,7 +60,7 @@
   </div>
 
   <div class="card-descriptions">
-    <h2 class='card-2-name'>Card 3</h2>
+    <h2 class='card-3-name'>Card 3</h2>
     <p id="description-2"></p>
     <a id="link-2"href="#" target="_blank"></a>
   </div>
@@ -74,6 +74,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/spreads.js"></script>
     <script src="js/cards.js"></script>
     <script src="js/main.js"></script>
   </body>

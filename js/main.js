@@ -1,38 +1,52 @@
 
-var cardsInPlay=[];
+var cardsInPlay = [];
 
-var flipCard = function(){
+var flipCard = function () {
 
   //get random card
   cardId = Math.floor(Math.random() * cards.length);
-  
+
   //put card in cardsInPlay array
   cardsInPlay.push(cards[cardId].name);
   //get card position
   var descriptionNum = this.getAttribute('data-id');
   //get the card Description to display
   var descriptionText = cards[cardId].cardDescription;
-  document.getElementById('description-'+ descriptionNum).innerHTML = descriptionText;
+  document.getElementById('description-' + descriptionNum).innerHTML = descriptionText;
 
   this.setAttribute('src', cards[cardId].cardImage);
   this.removeEventListener('click', flipCard);
-  var linkId = document.getElementById("link-"+descriptionNum);
+  var linkId = document.getElementById("link-" + descriptionNum);
   linkId.setAttribute('href', cards[cardId].info);
   linkId.innerHTML = "click here for more info";
 
 }
 
-var createBoard = function (){
+var createBoard = function () {
   console.log("board was created");
-  for (var i = 0; i<3; i++){
+  for (var i = 0; i < 3; i++) {
     var cardElement = document.createElement('img');
-    cardElement.setAttribute('data-id',i);
+    cardElement.setAttribute('data-id', i);
     cardElement.setAttribute('src', 'images/blank.jpg');
     cardElement.addEventListener('click', flipCard);
-    document.getElementById('space-'+ i).appendChild(cardElement);
+    document.getElementById('space-' + i).appendChild(cardElement);
 
   }
 }
-$(document).ready(function() {
+const selectSpread = function (spread_type) {
+  const selected_spread = spreads[spread_type]
+  $('.name-of-spread').html(selected_spread.name_of_spread)
+  $('.card-1-name').html(selected_spread.card_1_name)
+  $('.card-1-definition').html(selected_spread.card_1_definition)
+  $('.card-2-name').html(selected_spread.card_2_name)
+  $('.card-2-definition').html(selected_spread.card_2_definition)
+  $('.card-3-name').html(selected_spread.card_3_name)
+  $('.card-3-definition').html(selected_spread.card_3_definition)
+}
+
+$(document).ready(function () {
   createBoard();
+  $('.select-spread').on('click', function() {
+    selectSpread($(this).attr('id'));
+  });
 })
