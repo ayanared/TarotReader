@@ -1,4 +1,3 @@
-
 var cardsInPlay = [];
 
 var flipCard = function () {
@@ -44,9 +43,19 @@ const selectSpread = function (spread_type) {
   $('.card-3-definition').html(selected_spread.card_3_definition)
 }
 
+const saveSpread = function() {
+  const date = Date.now()
+  const dateString = `${date}`
+  const doc = new jsPDF()
+
+  doc.text(dateString, 10, 10)
+  doc.save(`${dateString}-tarot-reading.pdf`)
+}
+
 $(document).ready(function () {
   createBoard();
   $('.select-spread').on('click', function() {
     selectSpread($(this).attr('id'));
   });
+  $('#save-pdf').on('click', saveSpread)
 })
