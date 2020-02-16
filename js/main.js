@@ -43,9 +43,8 @@ const selectSpread = function (spread_type) {
   $('.card-3-definition').html(selected_spread.card_3_definition)
 }
 
-const saveSpread = function() {
-  const date = Date.now()
-  const dateString = `${date}`
+const saveSpread = function() {  
+  const dateString = moment(Date.now()).format('M-D-YYYY')
   const doc = new jsPDF()
 
   doc.text(dateString, 10, 10)
