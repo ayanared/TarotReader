@@ -26,7 +26,7 @@ var createBoard = function () {
   for (var i = 0; i < 3; i++) {
     var cardElement = document.createElement('img');
     cardElement.setAttribute('data-id', i);
-    cardElement.setAttribute('src', 'images/blank.jpg');
+    cardElement.setAttribute('src', 'images/back_of_card.png');
     cardElement.addEventListener('click', flipCard);
     document.getElementById('space-' + i).appendChild(cardElement);
 
