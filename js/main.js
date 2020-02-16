@@ -5,47 +5,36 @@ const displayInstructions = function () {
                             this card to gain clarity about <span class='card-2-definition'>current influences that affect your query</span>.  The last card represents <span class='card-3-name'>the future</span>. Use this card to 
                             <span class='card-3-definition'>gain more insight on where your current path is taking you</span>.`)
 }
-var cardsInPlay = [];
 
-var flipCard = function () {
-
-  //get random card
-  cardId = Math.floor(Math.random() * cards.length);
-
-  //put card in cardsInPlay array
-  cardsInPlay.push(cards[cardId].name);
-  //get card position
-  var descriptionNum = this.getAttribute('data-id');
-  //get the card Description to display
-  var descriptionText = cards[cardId].cardDescription;
-  document.getElementById('description-' + descriptionNum).innerHTML = descriptionText;
-
-  this.setAttribute('src', cards[cardId].cardImage);
-  this.removeEventListener('click', flipCard);
-  var linkId = document.getElementById("link-" + descriptionNum);
-  linkId.setAttribute('href', cards[cardId].info);
-  linkId.innerHTML = "click here for more info";
-
+const flipCard = function (cardPosition) {
+  const cardId = Math.floor(Math.random() * cards.length);
+  const card = cards.splice(cardId,1)[0];
+  $(`#card-pos-${cardPosition}`).attr('src', card.cardImage);
+  $(`#description-${cardPosition}`).html(card.cardDescription);
+  $(`#link-${cardPosition}`).html('click here for more information').attr('href', card.info);
 }
 
 const createBoard = function (num_of_cards) {
   for (let i = 0; i < num_of_cards; i++) {
     const cardElement = $(`<img src='images/back_of_card.png'
+                                id='card-pos-${i}'
                                 class='d-flex'
                                 data-id=${i}></img>`);
-    cardElement.on('click', flipCard);
+    cardElement.one('click', function() {
+      flipCard(i)
+    });
     $('#game-board').append(cardElement);
   }
 }
 const selectSpread = function (spread_type) {
   const selected_spread = spreads[spread_type]
-  $('.name-of-spread').html(selected_spread.name_of_spread)
-  $('.card-1-name').html(selected_spread.card_1_name)
-  $('.card-1-definition').html(selected_spread.card_1_definition)
-  $('.card-2-name').html(selected_spread.card_2_name)
-  $('.card-2-definition').html(selected_spread.card_2_definition)
-  $('.card-3-name').html(selected_spread.card_3_name)
-  $('.card-3-definition').html(selected_spread.card_3_definition)
+  $('.name-of-spread').html(selected_spread.name_of_spread);
+  $('.card-1-name').html(selected_spread.card_1_name);
+  $('.card-1-definition').html(selected_spread.card_1_definition);
+  $('.card-2-name').html(selected_spread.card_2_name);
+  $('.card-2-definition').html(selected_spread.card_2_definition);
+  $('.card-3-name').html(selected_spread.card_3_name);
+  $('.card-3-definition').html(selected_spread.card_3_definition);
 }
 
 const saveSpread = function() {  
