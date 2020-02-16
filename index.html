@@ -19,32 +19,21 @@
  </nav>
  <main>
  
- <div class="dropdown">
-  <button class="btn btn-secondary btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Pick type of Spread
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item select-spread" id="past_present_future" href="#">Past, Present, Future</a>
-    <a class="dropdown-item select-spread" id="physical_emotional_spiritual" href="#">Physical State, Emotional State, Spiritual State</a>
-    <a class="dropdown-item select-spread" id="think_feel_do" href="#">What I think, What I feel, What I do</a>
-    <a class="dropdown-item select-spread" id="strength_weakness_advice" href="#">Strength, Weakness, Advice</a>
-    <a class="dropdown-item select-spread" id="op1_op2_choose" href="#">Option 1, Option 2, How to choose</a>
-  </div>
-</div>
-<h2>Instructions</h2>
- <p>Tarot is a divination tool used to gain clarity about any situation. For <b class='name-of-spread'>this
-   particular spread</b>,the first card represents <span class='card-1-name'>the past</span>. Use this card to gain more clarity
-   about <span class='card-1-definition'>the past influences that affect your query</span>.  The second card represents <span class='card-2-name'>the present</span>.  Use
-   this card to gain clarity about <span class='card-2-definition'>current influences that affect your query</span>.  The last card represents <span class='card-3-name'>the future</span>. Use this card to 
-   <span class='card-3-definition'>gain more insight on where your current path is taking you</span>.</p>
-    <div id="game-board"class="board d-flex flex-row">
-      <table class="center">
-        <tr>
-          <td><h4 class='card-1-name'>Card 1</h4></td> <td><h4 class='card-2-name'>Card 2</h4></td> <td><h4 class='card-3-name'>Card 2</h4></td>
-            </tr>
-        <tr> <td id="space-0"></td> <td id='space-1'></td> <td id='space-2'></td></tr>
-      </table>
+  <div class="dropdown">
+    <button class="btn btn-secondary btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Pick type of Spread
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item select-spread" id="past_present_future" href="#">Past, Present, Future</a>
+      <a class="dropdown-item select-spread" id="physical_emotional_spiritual" href="#">Physical State, Emotional State, Spiritual State</a>
+      <a class="dropdown-item select-spread" id="think_feel_do" href="#">What I think, What I feel, What I do</a>
+      <a class="dropdown-item select-spread" id="strength_weakness_advice" href="#">Strength, Weakness, Advice</a>
+      <a class="dropdown-item select-spread" id="op1_op2_choose" href="#">Option 1, Option 2, How to choose</a>
     </div>
+  </div>
+  <h2>Instructions</h2>
+  <p id='instructions'></p>
+  <div id="game-board"class="board d-flex justify-content-around"></div>
 </main>
 
 <div class="card-descriptions">
