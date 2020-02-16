@@ -21,9 +21,9 @@ var flipCard = function () {
 
 }
 
-var createBoard = function () {
+var createBoard = function (num_of_cards) {
   console.log("board was created");
-  for (var i = 0; i < 3; i++) {
+  for (var i = 0; i < num_of_cards; i++) {
     var cardElement = document.createElement('img');
     cardElement.setAttribute('data-id', i);
     cardElement.setAttribute('src', 'images/back_of_card.png');
@@ -52,7 +52,7 @@ const saveSpread = function() {
 }
 
 $(document).ready(function () {
-  createBoard();
+  createBoard(3);
   $('.select-spread').on('click', function() {
     selectSpread($(this).attr('id'));
   });
