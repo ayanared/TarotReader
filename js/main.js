@@ -36,12 +36,21 @@ const selectSpread = function (spread_type) {
   $('.card-3-name').html(selected_spread.card_3_name);
   $('.card-3-definition').html(selected_spread.card_3_definition);
 }
-
+const cardInfoString = function() {
+  //grab card spread type
+  //grab card name
+  //grab card description
+  //return string
+}
 const saveSpread = function() {  
-  const dateString = moment(Date.now()).format('M-D-YYYY')
-  const doc = new jsPDF()
-
-  doc.text(dateString, 10, 10)
+  const dateString = moment(Date.now()).format('M-D-YYYY');
+  const doc = new jsPDF();
+  doc.text(dateString, 10, 10);
+  cardString = cardInfoString();
+  //save card info for each card
+  //put string into pdf
+  //save pdf
+  
   doc.save(`${dateString}-tarot-reading.pdf`)
 }
 
