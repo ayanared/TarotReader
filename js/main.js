@@ -23,7 +23,7 @@ const createBoard = function (num_of_cards) {
     cardElement.one('click', function() {
       flipCard(i)
     });
-    $('#game-board').append(cardElement);
+    $('#spread').append(cardElement);
   }
 }
 const selectSpread = function (spread_type) {
