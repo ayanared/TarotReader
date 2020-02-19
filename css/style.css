@@ -29,8 +29,9 @@ h1 {
     margin: 0;
 }
 h2{
+  margin-top: 20px;
   color: #212F3D;
-  text-align: left;
+  text-align: center;
 }
 a{
   color: white;

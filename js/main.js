@@ -1,9 +1,6 @@
-const displayInstructions = function () {
-  $('#instructions').html(`Tarot is a divination tool used to gain clarity about any situation. For <b class='name-of-spread'>this
-                            particular spread</b>,the first card represents <span class='card-1-name'>the past</span>. Use this card to gain more clarity
-                            about <span class='card-1-definition'>the past influences that affect your query</span>.  The second card represents <span class='card-2-name'>the present</span>.  Use
-                            this card to gain clarity about <span class='card-2-definition'>current influences that affect your query</span>.  The last card represents <span class='card-3-name'>the future</span>. Use this card to 
-                            <span class='card-3-definition'>gain more insight on where your current path is taking you</span>.`)
+const displayInstructions = function (type_of_spread) {
+  $('#name-of-type-of-spread').html(spreads[type_of_spread].name_of_spread)
+  $('#instructions').html(spreads[type_of_spread].instructions());
 }
 
 const flipCard = function (cardPosition) {
@@ -36,29 +33,40 @@ const selectSpread = function (spread_type) {
   $('.card-3-name').html(selected_spread.card_3_name);
   $('.card-3-definition').html(selected_spread.card_3_definition);
 }
-const cardInfoString = function() {
-  //grab card spread type
-  //grab card name
-  //grab card description
-  //return string
+const cardInfoString = function(selected_spread) {
+  const spread_type = spreads[selected_spread];
+  let card_info = `The name of your spread type is ${spread_type.name_of_spread}.`;
+  for(let i = 1; i < (spread_type.num_of_cards +1); i++){
+    card_info += ` Card ${i} represents ${spread_type[`card_${i}_name`]}. `;
+    card_info += $(`#description-${i-1}`).html()
+
+  }
+  return card_info
 }
-const saveSpread = function() {  
+const saveSpread = function(selected_spread) {  
   const dateString = moment(Date.now()).format('M-D-YYYY');
   const doc = new jsPDF();
   doc.text(dateString, 10, 10);
-  cardString = cardInfoString();
-  //save card info for each card
-  //put string into pdf
-  //save pdf
-  
+  doc.setFontSize(10);
+  const cardString = cardInfoString(selected_spread).match(/.{1,100}/g);
+  let line_number = 4;
+  cardString.forEach(function(stringSection) {
+    doc.text(stringSection, 10, line_number * 5);
+    line_number ++;
+  })
+  console.log(cardString)
   doc.save(`${dateString}-tarot-reading.pdf`)
 }
 
 $(document).ready(function () {
-  displayInstructions();
+  let selected_spread = 'past_present_future';
+  displayInstructions(selected_spread);
   createBoard(3);
   $('.select-spread').on('click', function() {
-    selectSpread($(this).attr('id'));
+    selected_spread = $(this).attr('id');
+    selectSpread(selected_spread);
+    displayInstructions(selected_spread)
   });
-  $('#save-pdf').on('click', saveSpread)
+  $('#save-pdf').on('click', function() {
+    saveSpread(selected_spread)})
 })

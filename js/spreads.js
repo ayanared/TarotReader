@@ -1,7 +1,11 @@
 const spreads = {
+  
   past_present_future: {
     num_of_cards: 3,
-    name_of_spread: "the past, present, and future spread",
+    instructions: function() {
+      return (`Tarot is a divination tool used to gain clarity about any situation. For ${this.name_of_spread} spread, the first card represents ${this.card_1_name}. Use this card to gain more clarity about ${this.card_1_definition}. The second card represents ${this.card_2_name}.  Use this card to gain clarity about ${this.card_2_definition}.  The last card represents ${this.card_3_name}. Use this card to ${this.card_3_definition}.`)
+    },
+    name_of_spread: "the past, present, and future",
     card_1_name: "the past",
     card_1_definition: "the past influences that affect your query",
     card_2_name: "the present",
@@ -11,6 +15,9 @@ const spreads = {
   },
   physical_emotional_spiritual: {
     num_of_cards: 3,
+    instructions: function() {
+      return (`Tarot is a divination tool used to gain clarity about any situation. For ${this.name_of_spread} spread, the first card represents ${this.card_1_name}. Use this card to gain more clarity about ${this.card_1_definition}. The second card represents ${this.card_2_name}.  Use this card to gain clarity about ${this.card_2_definition}.  The last card represents ${this.card_3_name}. Use this card to ${this.card_3_definition}.`)
+    },
     name_of_spread: "the physical state, emotional state, and spiritual state",
     card_1_name: "your physical state",
     card_1_definition: "your physical state and and how it affects your query",
@@ -21,6 +28,9 @@ const spreads = {
   },
   think_feel_do:{
     num_of_cards: 3,
+    instructions: function() {
+      return (`Tarot is a divination tool used to gain clarity about any situation. For ${this.name_of_spread} spread, the first card represents ${this.card_1_name}. Use this card to gain more clarity about ${this.card_1_definition}. The second card represents ${this.card_2_name}.  Use this card to gain clarity about ${this.card_2_definition}.  The last card represents ${this.card_3_name}. Use this card to ${this.card_3_definition}.`)
+    },
     name_of_spread: "the what I think, what I feel, and what I do spread",
     card_1_name: "what you think",
     card_1_definition: "your current thinking as it relates to your query",
@@ -31,6 +41,9 @@ const spreads = {
   },
   strength_weakness_advice:{
     num_of_cards: 3,
+    instructions: function() {
+      return (`Tarot is a divination tool used to gain clarity about any situation. For ${this.name_of_spread} spread, the first card represents ${this.card_1_name}. Use this card to gain more clarity about ${this.card_1_definition}. The second card represents ${this.card_2_name}.  Use this card to gain clarity about ${this.card_2_definition}.  The last card represents ${this.card_3_name}. Use this card to ${this.card_3_definition}.`)
+    },
     name_of_spread: "the strength, weakness, and advice spread",
     card_1_name: "your strengths",
     card_1_definition: "your strengths with respect to your query",
@@ -41,6 +54,9 @@ const spreads = {
   },
   op1_op2_choose: {
     num_of_cards: 3,
+    instructions: function() {
+      return (`Tarot is a divination tool used to gain clarity about any situation. For ${this.name_of_spread} spread, the first card represents ${this.card_1_name}. Use this card to gain more clarity about ${this.card_1_definition}. The second card represents ${this.card_2_name}.  Use this card to gain clarity about ${this.card_2_definition}.  The last card represents ${this.card_3_name}. Use this card to ${this.card_3_definition}.`)
+    },
     name_of_spread: "the option 1, option 2, and how to choose spread",
     card_1_name: "option 1",
     card_1_definition: "the first option of your query",
