@@ -17,13 +17,13 @@ main {
   margin-right: 10vw;
 }
 .card-holder {
-  margin: 50px 200px 75px;
+  margin: 50px 200px 10px;
 }
 
 .img-div {
   width: 150px;
   height: 255px;
-  margin: 20px;
+  margin: 1vw;
 }
 img{
   max-width: 100%;

@@ -13,9 +13,11 @@ const flipCard = function (cardPosition) {
 
 const createBoard = function (num_of_cards) {
   for (let i = 0; i < num_of_cards; i++) {
-    const cardElement = $(`<div class='img-div'><img src='images/back_of_card.jpg'
-                                id='card-pos-${i}'
-                                data-id=${i}></img></div>`);
+    const cardElement = $(`<div class='img-div'>
+                            <img src='images/back_of_card_small.jpg'
+                              id='card-pos-${i}'
+                              data-id=${i}></img>
+                           </div>`);
     cardElement.one('click', function() {
       flipCard(i)
     });
