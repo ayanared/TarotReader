@@ -75,6 +75,7 @@ footer {
   letter-spacing: .08em;
   font-weight: 500;
   position: absolute;
+  bottom: 0;
   overflow: hidden;
   width: 100%;
 }
