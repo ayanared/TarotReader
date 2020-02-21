@@ -20,6 +20,7 @@ main {
 img{
   margin: 0px 8px;
   width: 200px;
+  height: auto;
 }
 h1 {
     color: white;
