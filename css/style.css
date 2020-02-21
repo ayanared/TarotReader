@@ -100,3 +100,12 @@ footer {
 .card-descriptions {
   padding: 10px 30px;
 }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
