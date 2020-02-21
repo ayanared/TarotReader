@@ -25,7 +25,7 @@ var cards = [
     number: 3,
     cardImage: "images/rwempress.jpg",
     info: "http://www.learntarot.com/maj03.htm",
-    cardDescription: "Traditionally associated with strong maternal influence, the presence of the Empress is excellent news if you are looking for harmony in your marriage or hoping to start a family. Any artistic endeavours you are currently associated with are also likely to be more successful, as this card often finds those exposed to strong bursts of creative or artistic energy. That creative energy may not be in the form of a painting or art project, however: This card also suggests a very strong possibility of pregnancy -- not necessarily yours, but you might be seeing a new addition to your extended family or the family of a close friend in the near future! This card is a good portent for you and those around you."
+    cardDescription: "The Empress is traditionally associated with strong maternal influence, her presence is excellent news if you are looking for harmony in your marriage or hoping to start a family. Any artistic endeavours you are currently associated with are also likely to be more successful, as this card often finds those exposed to strong bursts of creative or artistic energy. That creative energy may not be in the form of a painting or art project, however: This card also suggests a very strong possibility of pregnancy -- not necessarily yours, but you might be seeing a new addition to your extended family or the family of a close friend in the near future! This card is a good portent for you and those around you."
   },
   {
   name: "the emperor",
@@ -47,35 +47,35 @@ cardDescription: "Depending on your own nature, the Hierophant can mean very dif
   number: 6,
   cardImage: "images/rwlovers.jpg",
   info: "http://www.learntarot.com/maj06.htm",
-  cardDescription: "Your first instinct will most likely be to associate this card as representing love, but, much like love, it does not possess a simple nature. Not only does love comes in many forms, but the Lovers may indicate important or difficult choices ahead in your life. This is bad, in that the choices it portends are generally mutually exclusive, paths to two very different futures, but also good, in that it also confirms that at least one of those paths will take you to a good place. As such, if you happen to find it in your spread, you should consider it carefully, but not fear it. It tells a story of difficult choices, likely painful, but that the correct decision and a positive outcome are within your grasp."
+  cardDescription: "The Lovers. Your first instinct will most likely be to associate this card as representing love, but, much like love, it does not possess a simple nature. Not only does love comes in many forms, but the Lovers may indicate important or difficult choices ahead in your life. This is bad, in that the choices it portends are generally mutually exclusive, paths to two very different futures, but also good, in that it also confirms that at least one of those paths will take you to a good place. As such, if you happen to find it in your spread, you should consider it carefully, but not fear it. It tells a story of difficult choices, likely painful, but that the correct decision and a positive outcome are within your grasp."
 },
 {
   name: "the chariot",
   number: 7,
   cardImage: "images/rwchariot.jpg",
   info: "http://www.learntarot.com/maj07.htm",
-  cardDescription: "You have some hard work ahead of you. It may be resolved quickly, but the Chariot is a powerful card, and the labor you are undertaking will probably trend towards long and difficult. You will quite possibly experience rough roads, long uphill slopes, dead ends, and painful setbacks. A good outcome is only assured if the card is upright, but do not let yourself lose hope: This hard road will instil in you a strength of purpose, the ability to overcome through organization and endurance, and the confidence possessed only by those who have done what they thought they could not. Harnessed correctly, few forces can stand against an individual like that."
+  cardDescription: "The Chariot. You have some hard work ahead of you. It may be resolved quickly, but the Chariot is a powerful card, and the labor you are undertaking will probably trend towards long and difficult. You will quite possibly experience rough roads, long uphill slopes, dead ends, and painful setbacks. A good outcome is only assured if the card is upright, but do not let yourself lose hope: This hard road will instil in you a strength of purpose, the ability to overcome through organization and endurance, and the confidence possessed only by those who have done what they thought they could not. Harnessed correctly, few forces can stand against an individual like that."
 },
 {
   name: "strength",
   number: 8,
   cardImage: "images/rwstrength.jpg",
   info: "http://www.learntarot.com/maj08.htm",
-  cardDescription: "Strength is the rawest form of power, and you possess it in some form. It is a very happy card if you are fighting illness or recovering from injury. As might be suspected, its influence over you, and the use you put it to, can trend towards light or dark. You likely trend towards facing your problems courageously, head-on, and conquering them through perseverance and will. With this ability to overcome life's obstacles, though, comes the responsibility to control yourself, and it this card may be a warning to take command of your own actions or emotions before they damage you or the people you care about."
+  cardDescription: "Strength. Strength is the rawest form of power, and you possess it in some form. It is a very happy card if you are fighting illness or recovering from injury. As might be suspected, its influence over you, and the use you put it to, can trend towards light or dark. You likely trend towards facing your problems courageously, head-on, and conquering them through perseverance and will. With this ability to overcome life's obstacles, though, comes the responsibility to control yourself, and it this card may be a warning to take command of your own actions or emotions before they damage you or the people you care about."
 },
 {
   name: "hermit",
   number: 9,
   cardImage: "images/rwhermit.jpg",
   info: "http://www.learntarot.com/maj09.htm",
-  cardDescription: "There are times in every life, when one must step back and make a careful examination of their situations and decisions. Finding the Hermit in your spread suggests this is just such a time for you. You are in need of a period of inner reflection, away from the current demands of your position. This retreat can be physical, or a search within. Only a deep and honest introspection will lead to a solution, however.."
+  cardDescription: "Hermit. There are times in every life, when one must step back and make a careful examination of their situations and decisions. Finding the Hermit in your spread suggests this is just such a time for you. You are in need of a period of inner reflection, away from the current demands of your position. This retreat can be physical, or a search within. Only a deep and honest introspection will lead to a solution, however.."
 },
 {
   name: "wheel of fortune",
   number: 10,
   cardImage: "images/rwwheelfortune.jpg",
   info: "http://www.learntarot.com/maj10.htm",
-  cardDescription:"Symbolic of life's cycles, the Wheel of Fortune speaks to good beginnings. Most likely, you will find the events foretold to be positive, but, being aspects of luck, they may also be beyond your control and influence. Tend those things you can control with care, and learn not to agonize over the ones you cannot.."
+  cardDescription:"Wheel of Fortune. Symbolic of life's cycles, the Wheel of Fortune speaks to good beginnings. Most likely, you will find the events foretold to be positive, but, being aspects of luck, they may also be beyond your control and influence. Tend those things you can control with care, and learn not to agonize over the ones you cannot.."
 },
 {
   name: "justice",
@@ -103,7 +103,7 @@ cardDescription: "Depending on your own nature, the Hierophant can mean very dif
   number: 14,
   cardImage: "images/rwtemperance.jpg",
   info: "http://www.learntarot.com/maj14.htm",
-  cardDescription:"An optimistic card, Temperance encourages you to find balance in your life and approach problems with a calm demeanour. It recognizes that opposing forces need not be at war within you. Tread carefully in any major decisions you make, with confidence that good decisions will lead to a good resolution for you."
+  cardDescription:"Temperance. An optimistic card, Temperance encourages you to find balance in your life and approach problems with a calm demeanour. It recognizes that opposing forces need not be at war within you. Tread carefully in any major decisions you make, with confidence that good decisions will lead to a good resolution for you."
 },
 {
   name: "the devil",
@@ -117,7 +117,7 @@ cardDescription: "Depending on your own nature, the Hierophant can mean very dif
   number: 16,
   cardImage: "images/rwtower.jpg",
   info: "http://www.learntarot.com/maj16.htm",
-  cardDescription:"Dark and foreboding, the Tower is the embodiment of disruption and conflict. Not just change, but the abrupt and jarring movement caused by the unforeseen and traumatic events which are part of life. The Tower in your spread is always a threat, but life inevitably involves tragedy, and you must decide whether you will face it with grace."
+  cardDescription:"The Tower. Dark and foreboding, the Tower is the embodiment of disruption and conflict. Not just change, but the abrupt and jarring movement caused by the unforeseen and traumatic events which are part of life. The Tower in your spread is always a threat, but life inevitably involves tragedy, and you must decide whether you will face it with grace."
 },
 {
   name: "the star",
@@ -131,7 +131,7 @@ cardDescription: "Depending on your own nature, the Hierophant can mean very dif
   number: 18,
   cardImage: "images/rwmoon.jpg",
   info: "http://www.learntarot.com/maj18.htm",
-  cardDescription:"Something in your life is not what it seems. Perhaps a misunderstanding on your part, or a truth you cannot admit to yourself. It may also indicate something important being kept from you by another. This may be a source of worry or depression in your life, and the Moon is a strong indicator that you must rely on your intuition to see through the subterfuge."
+  cardDescription:"The Moon. Something in your life is not what it seems. Perhaps a misunderstanding on your part, or a truth you cannot admit to yourself. It may also indicate something important being kept from you by another. This may be a source of worry or depression in your life, and the Moon is a strong indicator that you must rely on your intuition to see through the subterfuge."
 },
 
 {
@@ -139,7 +139,7 @@ cardDescription: "Depending on your own nature, the Hierophant can mean very dif
   number: 19,
   cardImage: "images/rwsun.jpg",
   info: "http://www.learntarot.com/maj19.htm",
-  cardDescription:"As an inherently good influence, finding the Sun is a positive development. It is suggestive of personal gain, and that personal goals and joy are within reach, if you are willing to invest the effort to actualize them. If you are embarking on a new personal venture, such as marriage or beginning a family, the Sun is of particular influence."
+  cardDescription:"The Sun. As an inherently good influence, finding the Sun is a positive development. It is suggestive of personal gain, and that personal goals and joy are within reach, if you are willing to invest the effort to actualize them. If you are embarking on a new personal venture, such as marriage or beginning a family, the Sun is of particular influence."
 },
 {
   name: "judgement",
@@ -181,7 +181,7 @@ cardDescription: "Depending on your own nature, the Hierophant can mean very dif
   number: 25,
   cardImage: "images/rwacepentacles.jpg",
   info: "http://www.learntarot.com/pa.htm",
-  cardDescription:"Aces always represent a new beginning in some form, and the Ace of Pentacles suggests a strongly positive one for you. Your life is about to enter a very productive period -- or at least a period which will see your work rewarded in good measure to the level of work you are willing to perform. This period will also see most of your relationship on stable ground, and, despite the hard work you may be doing, you will be very content with your situation."
+  cardDescription:"Ace of Pentacles. Aces always represent a new beginning in some form, and the Ace of Pentacles suggests a strongly positive one for you. Your life is about to enter a very productive period -- or at least a period which will see your work rewarded in good measure to the level of work you are willing to perform. This period will also see most of your relationship on stable ground, and, despite the hard work you may be doing, you will be very content with your situation."
 },
 {
   name: "two of wands",
@@ -195,35 +195,35 @@ cardDescription: "Depending on your own nature, the Hierophant can mean very dif
   number: 27,
   cardImage: "images/rw02cups.jpg",
   info: "http://www.learntarot.com/c2.htm",
-  cardDescription:"The single resounding theme associated with the II of Cups is partnership. What sort of partnership is less clear, but you are in the past, present, or future, part of a powerful one. This partnership will involve absolute trust and commanding respect. It may, of course, be a particularly emotional love affair, but it could just as easily be a deep and abiding friendship. The exact nature may be revealed by the rest of the spread, or it may not. It will be a source of happiness for you, though, a presence in your life you can count on at every turn, and whose well-being will be as important to you as your own."
+  cardDescription:"The Two of Cups. The single resounding theme associated with the II of Cups is partnership. What sort of partnership is less clear, but you are in the past, present, or future, part of a powerful one. This partnership will involve absolute trust and commanding respect. It may, of course, be a particularly emotional love affair, but it could just as easily be a deep and abiding friendship. The exact nature may be revealed by the rest of the spread, or it may not. It will be a source of happiness for you, though, a presence in your life you can count on at every turn, and whose well-being will be as important to you as your own."
 },
 {
   name: "two of swords",
   number: 28,
   cardImage: "images/rw02swords.jpg",
   info: "http://www.learntarot.com/s2.htm",
-  cardDescription:"Like crossed blades, the II of Swords represents a balance of forces. Not necessarily an absence of struggle, but an equal distribution of force in opposition. It may indicate you are in a position to mediate a conflict, or it may instead suggest you are caught in the middle of a dilemma with no clear outcome. The resolution of this state will likely bring peace for you."
+  cardDescription:"The Two of Swords. Like crossed blades, the II of Swords represents a balance of forces. Not necessarily an absence of struggle, but an equal distribution of force in opposition. It may indicate you are in a position to mediate a conflict, or it may instead suggest you are caught in the middle of a dilemma with no clear outcome. The resolution of this state will likely bring peace for you."
 },
 {
   name: "two of pentacles",
   number: 29,
   cardImage: "images/rw02pentacles.jpg",
   info: "http://www.learntarot.com/p2.htm",
-  cardDescription: "The II is, as always, bound up in the forces of change, and of balance. Like its brothers, the II of Pentacles can mean good or ill, but it as a strong indicator that the status quo will be disrupted. There will be challenges in your future, but your fate is largely in your own hands in the sense that the final outcome depends own how you respond to these challenges. The suit of this card suggests your best outcome is one that can be reached through prudence and careful planning."
+  cardDescription: "The Two of Pentacles. The II is, as always, bound up in the forces of change, and of balance. Like its brothers, the II of Pentacles can mean good or ill, but it as a strong indicator that the status quo will be disrupted. There will be challenges in your future, but your fate is largely in your own hands in the sense that the final outcome depends own how you respond to these challenges. The suit of this card suggests your best outcome is one that can be reached through prudence and careful planning."
 },
 {
   name: "three of wands",
   number: 30,
   cardImage: "images/rw03wands.jpg",
   info: "http://www.learntarot.com/w3.htm",
-  cardDescription:"If you can bring the fullness of your creativity and inventiveness to the table, then the III of Wands brings good news. You are about to enter a time where your potential for productivity and accomplishment is very favourable. Keep your eyes open for new career opportunities and your mind open to new possibilities. The rewards these new opportunities bring, however, will only come in the fullness of time. You will need to be patient and stick around for the long haul. Also, look for new allies, as any new undertakings will be most successful if undertaken as partnerships."
+  cardDescription:"The Three of Wands. If you can bring the fullness of your creativity and inventiveness to the table, then the III of Wands brings good news. You are about to enter a time where your potential for productivity and accomplishment is very favourable. Keep your eyes open for new career opportunities and your mind open to new possibilities. The rewards these new opportunities bring, however, will only come in the fullness of time. You will need to be patient and stick around for the long haul. Also, look for new allies, as any new undertakings will be most successful if undertaken as partnerships."
 },
 {
   name: "three of cups",
   number: 31,
   cardImage: "images/rw03cups.jpg",
   info: "http://www.learntarot.com/c3.htm",
-  cardDescription:"This card is both a portent of celebration and cause for it. It tells of great happiness in the future for you, and not of the passing kind, but secure joy which will last and be shared with those around you. Commonly associated with the completion of a meaningful project, or, even more likely, a birth."
+  cardDescription:"The Three of Cups. This card is both a portent of celebration and cause for it. It tells of great happiness in the future for you, and not of the passing kind, but secure joy which will last and be shared with those around you. Commonly associated with the completion of a meaningful project, or, even more likely, a birth."
 },
 {
   name: "three of swords",
@@ -237,35 +237,35 @@ cardDescription: "Depending on your own nature, the Hierophant can mean very dif
   number: 33,
   cardImage: "images/rw03pentacles.jpg",
   info: "http://www.learntarot.com/p3.htm",
-  cardDescription: "If you can maintain a clear sense of purpose over the coming months, you are well positioned to see you hard work get the recognition it deserves. It is not guaranteed, but if you maintain your own pace, and it may tax your interpersonal skills, as you will need to rely and trust on others for the best outcome. That outcome will be worth your determination, however, not only providing material reward, but leading to a sense of lasting accomplishment."
+  cardDescription: "Three of Pentacles. If you can maintain a clear sense of purpose over the coming months, you are well positioned to see you hard work get the recognition it deserves. It is not guaranteed, but if you maintain your own pace, and it may tax your interpersonal skills, as you will need to rely and trust on others for the best outcome. That outcome will be worth your determination, however, not only providing material reward, but leading to a sense of lasting accomplishment."
 },
 {
   name: "four of wands",
   number: 34,
   cardImage: "images/rw04wands.jpg",
   info: "http://www.learntarot.com/w4.htm",
-  cardDescription:"Peace and security follow in the wake of the Four of Wands, usually in the smaller aspects of your life. Do not let the limited scope bring you to underestimate the joy that simple successes can bring, however: This is a card of good endings and fresh starts. Its presence should be welcome if you are beginning a new relationship -- or a new phase of one, such as marriage or engagement -- and is especially good for those about to move residences."
+  cardDescription:"Four of Wands. Peace and security follow in the wake of the Four of Wands, usually in the smaller aspects of your life. Do not let the limited scope bring you to underestimate the joy that simple successes can bring, however: This is a card of good endings and fresh starts. Its presence should be welcome if you are beginning a new relationship -- or a new phase of one, such as marriage or engagement -- and is especially good for those about to move residences."
 },
 {
   name: "four of cups",
   number: 35,
   cardImage: "images/rw04cups.jpg",
   info: "http://www.learntarot.com/c4.htm",
-  cardDescription:"Apathy is the most insidious of evil. If its influence remains unchecked you may lose yourself, and not even realize what you have lost. This card is a strong warning that you must break out of your current cycles. Seek out causes or people to care and fight for. Make new goals, and then seek out new paths to reach them. Now is the time to take risks, as the price of failure is far less than the cost of no longer seeking success."
+  cardDescription:"Four of Cups. Apathy is the most insidious of evil. If its influence remains unchecked you may lose yourself, and not even realize what you have lost. This card is a strong warning that you must break out of your current cycles. Seek out causes or people to care and fight for. Make new goals, and then seek out new paths to reach them. Now is the time to take risks, as the price of failure is far less than the cost of no longer seeking success."
 },
 {
   name: "four of swords",
   number: 36,
   cardImage: "images/rw04swords.jpg",
   info: "http://www.learntarot.com/s4.htm",
-  cardDescription:"Representing order and stability, combined with the tumultuous nature of the Swords, the IV of Swords offers your respite from the battles in your life. The peace may be temporary, but appreciate it while it lasts. It may point towards recovery from prolonged illness."
+  cardDescription:"Four of Swords. Representing order and stability, combined with the tumultuous nature of the Swords, the IV of Swords offers your respite from the battles in your life. The peace may be temporary, but appreciate it while it lasts. It may point towards recovery from prolonged illness."
 },
 {
   name: "four of pentacles",
   number: 37,
   cardImage: "images/rw04pentacles.jpg",
   info: "http://www.learntarot.com/p4.htm",
-  cardDescription:"Perhaps through a gift or inheritance, or possibly through your own business acumen, you are on a path leading towards financial and material security. This will likely be a pleasant chapter of your life, wherein your emotional and spiritual needs are satisfied."
+  cardDescription:"Four of Pentacles. Perhaps through a gift or inheritance, or possibly through your own business acumen, you are on a path leading towards financial and material security. This will likely be a pleasant chapter of your life, wherein your emotional and spiritual needs are satisfied."
 },
 {
   name: "five of wands",
@@ -279,168 +279,168 @@ cardDescription: "Depending on your own nature, the Hierophant can mean very dif
   number: 39,
   cardImage: "images/rw05cups.jpg",
   info: "http://www.learntarot.com/c5.htm",
-  cardDescription: "This card is a dark omen. Like the rest of its suit, it is bound your emotions, and it brings with it a warning of loss and disappointment. Expect a setback in your life, almost certainly emotional. While this may be emotional, it may be a project or goal you are particularly invested in, emotionally. In certain positions it might also refer to events of the past which continue to cause regret or heartache. The only solution is optimism; this too shall pass."
+  cardDescription: "Five of Cups. This card is a dark omen. Like the rest of its suit, it is bound your emotions, and it brings with it a warning of loss and disappointment. Expect a setback in your life, almost certainly emotional. While this may be emotional, it may be a project or goal you are particularly invested in, emotionally. In certain positions it might also refer to events of the past which continue to cause regret or heartache. The only solution is optimism; this too shall pass."
 },
 {
   name: "five of swords",
   number: 40,
   cardImage: "images/rw05swords.jpg",
   info: "http://www.learntarot.com/s5.htm",
-  cardDescription:"This card indicates conflict in your life. Worse yet, it is closely associated with defeat. It is likely that the defeat will be traumatic, and you will need to retreat and regroup. Your may have suffered injury to your pride or self-esteem, but the V of Swords is also a warning of a potential to get caught in the cycle. Handle defeat with grace, move on, and success will come to you."
+  cardDescription:"Five of Swords. This card indicates conflict in your life. Worse yet, it is closely associated with defeat. It is likely that the defeat will be traumatic, and you will need to retreat and regroup. Your may have suffered injury to your pride or self-esteem, but the V of Swords is also a warning of a potential to get caught in the cycle. Handle defeat with grace, move on, and success will come to you."
 },
 {
   name: "five of pentacles",
   number: 41,
   cardImage: "images/rw05pentacles.jpg",
   info: "http://www.learntarot.com/p5.htm",
-  cardDescription:"The V of Pentacles can, depending on the rest of your spread, refer to financial matters, employment, or relationships. Unfortunately, it is a negative indicator for all of them, suggesting duplicity, loss of jobs, and the possibility of infidelity. This is a time for you to carefully evaluate what matters in your life and work out your priorities, such as whether your job or your relationship matters most. In order to mitigate the damage in some areas of your life, you may have to let some of the other fall away."
+  cardDescription:"Five of Pentacles. The V of Pentacles can, depending on the rest of your spread, refer to financial matters, employment, or relationships. Unfortunately, it is a negative indicator for all of them, suggesting duplicity, loss of jobs, and the possibility of infidelity. This is a time for you to carefully evaluate what matters in your life and work out your priorities, such as whether your job or your relationship matters most. In order to mitigate the damage in some areas of your life, you may have to let some of the other fall away."
 },
 {
   name: "six of wands",
   number: 42,
   cardImage: "images/rw06wands.jpg",
   info: "http://www.learntarot.com/w6.htm",
-  cardDescription:"Your past efforts are about to pay dividends if you find the Six of Wands in your spread. Whether in the form of recognition for your past work or material reward, some level of success is in your future. If you are waiting for some particular news, this card is most likely a portent of good news. However, it is also gentle reminder that magnanimity and grace should accompany your success. To avoid losing friends and inviting retributions, do not let the good fortune go to your head."
+  cardDescription:"Six of Wands. Your past efforts are about to pay dividends if you find the Six of Wands in your spread. Whether in the form of recognition for your past work or material reward, some level of success is in your future. If you are waiting for some particular news, this card is most likely a portent of good news. However, it is also gentle reminder that magnanimity and grace should accompany your success. To avoid losing friends and inviting retributions, do not let the good fortune go to your head."
 },
 {
   name: "six of cups",
   number: 43,
   cardImage: "images/rw06cups.jpg",
   info: "http://www.learntarot.com/c6.htm",
-  cardDescription:"The VI of Cups is rooted deep in the past, but it is also a card closely bound to your happiness. It suggests that your family, your old friends, perhaps even past lovers, are in the process of adding greatly to the joys in your life. This card may also refer to past efforts, labours of love, and personal projects rewarding you, usually in an emotional sense, rather than financial."
+  cardDescription:"Six of Cups. The VI of Cups is rooted deep in the past, but it is also a card closely bound to your happiness. It suggests that your family, your old friends, perhaps even past lovers, are in the process of adding greatly to the joys in your life. This card may also refer to past efforts, labours of love, and personal projects rewarding you, usually in an emotional sense, rather than financial."
 },
 {
   name: "six of swords",
   number: 44,
   cardImage: "images/rw06swords.jpg",
   info: "http://www.learntarot.com/s6.htm",
-  cardDescription:"Your mental focus can put you on track to leave your current troubles behind, leading to better times ahead. It is important to face your problems from a mental standpoint, thinking through them. There is still trouble ahead for you, but the worst is over."
+  cardDescription:"Six of Swords. Your mental focus can put you on track to leave your current troubles behind, leading to better times ahead. It is important to face your problems from a mental standpoint, thinking through them. There is still trouble ahead for you, but the worst is over."
 },
 {
   name: "six of pentacles",
   number: 45,
   cardImage: "images/rw06pentacles.jpg",
   info: "http://www.learntarot.com/p6.htm",
-  cardDescription:"Success in your life is bound up to generosity. This may mean your prosperity will arise from your investment in others, perhaps a financial investment, or maybe advice and support for a friend. This card can also mean the reverse, that your success will arise from the generosity of someone else. The two are, of course, not exclusive, and drawing this card suggests you naturally lean towards benevolent acts and charity."
+  cardDescription:"Six of Pentacles. Success in your life is bound up to generosity. This may mean your prosperity will arise from your investment in others, perhaps a financial investment, or maybe advice and support for a friend. This card can also mean the reverse, that your success will arise from the generosity of someone else. The two are, of course, not exclusive, and drawing this card suggests you naturally lean towards benevolent acts and charity."
 },
 {
   name: "seven of wands",
   number: 46,
   cardImage: "images/rw07wands.jpg",
   info: "http://www.learntarot.com/w7.htm",
-  cardDescription:"You almost certainly have great reserves of courage, and the perseverance to see yourself through difficult times. You may not be aware you possess these qualities, but you will find yourself needing them soon. Expect conflicts, possibly small, but more likely significant. It is not certain where they will arise, but there is no doubt you possess the ability to overcome your adversaries."
+  cardDescription:"Seven of Wands. You almost certainly have great reserves of courage, and the perseverance to see yourself through difficult times. You may not be aware you possess these qualities, but you will find yourself needing them soon. Expect conflicts, possibly small, but more likely significant. It is not certain where they will arise, but there is no doubt you possess the ability to overcome your adversaries."
 },
 {
   name: "seven of cups",
   number: 47,
   cardImage: "images/rw07cups.jpg",
   info: "http://www.learntarot.com/c7.htm",
-  cardDescription:"This card speaks strongly to your inner self. It is trying to tell you something about your unconscious or the realms of your imagination. Your hopes, dreams, and unrealized aspirations are all fair game to the VII of Cups. It speaks of a deep confusion, or a lack of understanding of your true motivations by your conscious mind. It is time to look carefully at your own motivations and reexamine your goals, but it is also a risky time to act upon your conclusions."
+  cardDescription:"Seven of Cups. This card speaks strongly to your inner self. It is trying to tell you something about your unconscious or the realms of your imagination. Your hopes, dreams, and unrealized aspirations are all fair game to the VII of Cups. It speaks of a deep confusion, or a lack of understanding of your true motivations by your conscious mind. It is time to look carefully at your own motivations and reexamine your goals, but it is also a risky time to act upon your conclusions."
 },
 {
   name: "seven of swords",
   number: 48,
   cardImage: "images/rw07swords.jpg",
   info: "http://www.learntarot.com/s7.htm",
-  cardDescription:"Another card which indicates forces opposing you, the VII of Swords points to there being a single source of your frustration. This is both positive, in that you may be able to identify that source and change your circumstances, and negative, in that this source may well be aware of you and deliberately sabotaging you. The road to your success does not lie in direct confrontation, however, but instead in guile. Instead of attacking the obstacles raised against you, find ways around them."
+  cardDescription:"Seven of Swords. Another card which indicates forces opposing you, the VII of Swords points to there being a single source of your frustration. This is both positive, in that you may be able to identify that source and change your circumstances, and negative, in that this source may well be aware of you and deliberately sabotaging you. The road to your success does not lie in direct confrontation, however, but instead in guile. Instead of attacking the obstacles raised against you, find ways around them."
 },
 {
   name: "seven of pentacles",
   number: 49,
   cardImage: "images/rw07pentacles.jpg",
   info: "http://www.learntarot.com/p7.htm",
-  cardDescription:"A balanced card by nature the VII suggest you will avoid failure, but fall short of runaway success in an endeavour. Or, equally possible, that you will achieve your goals, but not in the time frame you had hoped for. You will face setbacks, and in order to succeed you will need to take care to avoid becoming too hesitant or timid. Progress may be slow or difficult, but it is possible."
+  cardDescription:"Seven of Pentacles. A balanced card by nature the VII suggest you will avoid failure, but fall short of runaway success in an endeavour. Or, equally possible, that you will achieve your goals, but not in the time frame you had hoped for. You will face setbacks, and in order to succeed you will need to take care to avoid becoming too hesitant or timid. Progress may be slow or difficult, but it is possible."
 },
 {
   name: "eight of wands",
   number: 50,
   cardImage: "images/rw08wands.jpg",
   info: "http://www.learntarot.com/w8.htm",
-  cardDescription:"Prepare yourself for an abrupt increase in the pace of your life. Things are about to get very busy. They good news is that any projects you begin will progress quickly, you will experience few delays, and the conclusion is likely to be successful. This card is also good news for relationships, although it raises the possibility of needing to travel for relationships. All things considered, this is a good card to find in your spread, as long as you are willing to buckle down and get to work."
+  cardDescription:"Eight of Wands. Prepare yourself for an abrupt increase in the pace of your life. Things are about to get very busy. They good news is that any projects you begin will progress quickly, you will experience few delays, and the conclusion is likely to be successful. This card is also good news for relationships, although it raises the possibility of needing to travel for relationships. All things considered, this is a good card to find in your spread, as long as you are willing to buckle down and get to work."
 },
 {
   name: "eight of cups",
   number: 51,
   cardImage: "images/rw08cups.jpg",
   info: "http://www.learntarot.com/c8.htm",
-  cardDescription:"The VIII suggests that there is stability and security in your life, but at a personal cost. You are probably unfulfilled by your current life. Depending on the rest of your spread, it may be a strong push for you to move on, and find the courage to strike out in a new direction. You will have to look closely at your work, your relationship, and your own beliefs to identify the source of your ennui, and then decide if you are willing to set aside some of your life's stability in order to find happiness."
+  cardDescription:"Eight of Cups. The VIII suggests that there is stability and security in your life, but at a personal cost. You are probably unfulfilled by your current life. Depending on the rest of your spread, it may be a strong push for you to move on, and find the courage to strike out in a new direction. You will have to look closely at your work, your relationship, and your own beliefs to identify the source of your ennui, and then decide if you are willing to set aside some of your life's stability in order to find happiness."
 },
 {
   name: "eight of swords",
   number: 52,
   cardImage: "images/rw08swords.jpg",
   info: "http://www.learntarot.com/s8.htm",
-  cardDescription:"Some things in life are beyond your control, and the VIII of Swords suggests that you are being actively held back by some of them. This can something as personal as a bad boss or as sweeping as international politics. In any case, you are likely finding your options restricted at every turn, and may being experiencing rising frustration and anxiety. Your best course of action lies with the only thing you can control: You. Approach this situation with patience, and be ready to move when the situation changes."
+  cardDescription:"Eight of Swords. Some things in life are beyond your control, and the VIII of Swords suggests that you are being actively held back by some of them. This can something as personal as a bad boss or as sweeping as international politics. In any case, you are likely finding your options restricted at every turn, and may being experiencing rising frustration and anxiety. Your best course of action lies with the only thing you can control: You. Approach this situation with patience, and be ready to move when the situation changes."
 },
 {
   name: "eight of pentacles",
   number: 53,
   cardImage: "images/rw08pentacles.jpg",
   info: "http://www.learntarot.com/p8.htm",
-  cardDescription:"If you are involved in any work requiring creative inspiration or craftsmanship, the VIII of Pentacles is a very positive card. This is doubly true if you are using skills you are still trying to master. This is as likely to be a hobby as your primary work. Unlike most of the suit, financial gain is not necessarily indicated, but a spiritual reward is. This is also not a guarantee, but rather a suggestion that if you are prudent and organized in your attempt, success is the likelier outcome."
+  cardDescription:"Eight of Pentacles. If you are involved in any work requiring creative inspiration or craftsmanship, the VIII of Pentacles is a very positive card. This is doubly true if you are using skills you are still trying to master. This is as likely to be a hobby as your primary work. Unlike most of the suit, financial gain is not necessarily indicated, but a spiritual reward is. This is also not a guarantee, but rather a suggestion that if you are prudent and organized in your attempt, success is the likelier outcome."
 },
 {
   name: "nine of wands",
   number: 54,
   cardImage: "images/rw09wands.jpg",
   info: "http://www.learntarot.com/w9.htm",
-  cardDescription:"The IX of Wands is a bittersweet discovery in your spread, as it suggests both struggles ahead and the capacity within you to overcome them. Your life is probably comfortable at the moment, but there are also likely signs of trouble in some of the less critical aspects of your personal or professional life. Your inner strength will be called upon to maintain the current situation, and then to move forward when progress becomes possible for you."
+  cardDescription:"Nine of Wands. The IX of Wands is a bittersweet discovery in your spread, as it suggests both struggles ahead and the capacity within you to overcome them. Your life is probably comfortable at the moment, but there are also likely signs of trouble in some of the less critical aspects of your personal or professional life. Your inner strength will be called upon to maintain the current situation, and then to move forward when progress becomes possible for you."
 },
 {
   name: "nine of cups",
   number: 55,
   cardImage: "images/rw09cups.jpg",
   info: "http://www.learntarot.com/c9.htm",
-  cardDescription:"This card is a very powerful positive indicator for you! It represents a lasting or powerful contentment in your life. While nothing is permanent, somewhere along your life's path you can expect to be truly happy. It is heavily tied to creative endeavour and good wishes for the future."
+  cardDescription:"Nine of Cups. This card is a very powerful positive indicator for you! It represents a lasting or powerful contentment in your life. While nothing is permanent, somewhere along your life's path you can expect to be truly happy. It is heavily tied to creative endeavour and good wishes for the future."
 },
 {
   name: "nine of swords",
   number: 56,
   cardImage: "images/rw09swords.jpg",
   info: "http://www.learntarot.com/s9.htm",
-  cardDescription:"One of the more negative card to discover in your spread, the IX of Swords foretells or describes a powerful mental anguish. The source of this anguish may well be within you, arising from you being too quick to cast a negative light on your actions or abilities. It may also arise from paranoia. Despite often being unfounded, your pain can take the form of sleeplessness, of fear, depression, loneliness and isolation. Beware pushing away those who are seeking to help you, and find the courage to reach out for help. Even if these feelings are based in reality, it may be difficult for you to clearly find a solution in your current state. Carefully consider the other cards in your spread, look for card associated with potential sources of aid and counsel."
+  cardDescription:"Nine of Swords. One of the more negative card to discover in your spread, the IX of Swords foretells or describes a powerful mental anguish. The source of this anguish may well be within you, arising from you being too quick to cast a negative light on your actions or abilities. It may also arise from paranoia. Despite often being unfounded, your pain can take the form of sleeplessness, of fear, depression, loneliness and isolation. Beware pushing away those who are seeking to help you, and find the courage to reach out for help. Even if these feelings are based in reality, it may be difficult for you to clearly find a solution in your current state. Carefully consider the other cards in your spread, look for card associated with potential sources of aid and counsel."
 },
 {
   name: "nine of pentacles",
   number: 57,
   cardImage: "images/rw09pentacles.jpg",
   info: "http://www.learntarot.com/p9.htm",
-  cardDescription:"The IX of Pentacles represents significant financial reward, but one borne of hard work and careful planning on your part; a just reward for prudent actions. It may also indicate that a time of hardship for you is ending and a counter-balancing time of pleasant living is at hand. On a less positive note, it also indicates a solitary individual, so you may still be searching for companionship, and lack people to with whom share your gains."
+  cardDescription:"Nine of Pentacles. The IX of Pentacles represents significant financial reward, but one borne of hard work and careful planning on your part; a just reward for prudent actions. It may also indicate that a time of hardship for you is ending and a counter-balancing time of pleasant living is at hand. On a less positive note, it also indicates a solitary individual, so you may still be searching for companionship, and lack people to with whom share your gains."
 },
 {
   name: "10 of wands",
   number: 58,
   cardImage: "images/rw10wands.jpg",
   info: "http://www.learntarot.com/w10.htm",
-  cardDescription:"If the X of Wands appears in your spread, you are likely working too hard, or taking on more burdens than you should. It can indicate both excessive workloads in pursuit of your goals, or as a result of attaining them."
+  cardDescription:"Ten of Wands. If the X of Wands appears in your spread, you are likely working too hard, or taking on more burdens than you should. It can indicate both excessive workloads in pursuit of your goals, or as a result of attaining them."
 },
 {
   name: "10 of cups",
   number: 59,
   cardImage: "images/rw10cups.jpg",
   info: "http://www.learntarot.com/c10.htm",
-  cardDescription:"You can expect to attain some long goal if you find the X of Cups in your spread. This card is, like the rest of the Cups, imbued with emotional undertones. It may signal the mending of bridges between friends or family members you were once close to, if there has been a rift. You may also find that it symbolizes your own inner emotional turmoil being resolved. In reference to marriage it is usually indicative of lasting emotional bonds."
+  cardDescription:"Ten of Cups. You can expect to attain some long goal if you find the X of Cups in your spread. This card is, like the rest of the Cups, imbued with emotional undertones. It may signal the mending of bridges between friends or family members you were once close to, if there has been a rift. You may also find that it symbolizes your own inner emotional turmoil being resolved. In reference to marriage it is usually indicative of lasting emotional bonds."
 },
 {
   name: "ten of swords",
   number: 60,
   cardImage: "images/rw10swords.jpg",
   info: "http://www.learntarot.com/s10.htm",
-  cardDescription:"The X of Swords is a cause for fear in any who believe in the power of the cards, and you should prepare yourself for whatever it portends. It is one of many cards which can represent disaster, but, alone among them, it is a disaster which cannot be avoided. It foretells not only a complete failure but an unavoidable one. What is more, the failure will not be small or easily overcome. This is not a fortune to be changed or avoided, only endured: If you stay strong, new dreams can be built from the ashes."
+  cardDescription:"Ten of Swords. The X of Swords is a cause for fear in any who believe in the power of the cards, and you should prepare yourself for whatever it portends. It is one of many cards which can represent disaster, but, alone among them, it is a disaster which cannot be avoided. It foretells not only a complete failure but an unavoidable one. What is more, the failure will not be small or easily overcome. This is not a fortune to be changed or avoided, only endured: If you stay strong, new dreams can be built from the ashes."
 },
 {
   name: "ten of pentacles",
   number: 61,
   cardImage: "images/rw10pentacles.jpg",
   info: "http://www.learntarot.com/p10.htm",
-  cardDescription:"Your financial security and emotional well-being are both positively indicated by the presence of this card in your spread. This is only partially your own doing, however, as these positive aspects are inextricably bound up in your close relationships with friends and family. It may also foretell an inheritance."
+  cardDescription:"Ten of Pentacles. Your financial security and emotional well-being are both positively indicated by the presence of this card in your spread. This is only partially your own doing, however, as these positive aspects are inextricably bound up in your close relationships with friends and family. It may also foretell an inheritance."
 },
 {
   name: "page of wands",
   number: 62,
   cardImage: "images/rwpagewands.jpg",
   info: "http://www.learntarot.com/wpg.htm",
-  cardDescription:"A vital indicator, the Page suggests good news coming to you from or about a youthful individual. If the card is describing you, personally, it indicates you possess boundless energy, deep loyalty, and youthful love of learning. It may also point towards a new project you will soon be undertaking."
+  cardDescription:"Page of Wands. A vital indicator, the Page suggests good news coming to you from or about a youthful individual. If the card is describing you, personally, it indicates you possess boundless energy, deep loyalty, and youthful love of learning. It may also point towards a new project you will soon be undertaking."
 },
 {
   name: "page of cups",
@@ -454,14 +454,14 @@ cardDescription: "Depending on your own nature, the Hierophant can mean very dif
   number: 64,
   cardImage: "images/rwpageswords.jpg",
   info: "http://www.learntarot.com/spg.htm",
-  cardDescription:"Your personality may trend towards the stubborn and opinionated, if the Page represents you in the spread, but it is also indicative of strong analytical skills and an energetic nature. You have a predilection towards identifying the core of issues and accurately assessing your own stance on them. This will allow you to become an excellent negotiator. If the card refer to a situation, instead, prepare yourself to make many important decisions quickly. Trust in your reason and your judgment to navigate these difficulties."
+  cardDescription:"Page of Swords. Your personality may trend towards the stubborn and opinionated, if the Page represents you in the spread, but it is also indicative of strong analytical skills and an energetic nature. You have a predilection towards identifying the core of issues and accurately assessing your own stance on them. This will allow you to become an excellent negotiator. If the card refer to a situation, instead, prepare yourself to make many important decisions quickly. Trust in your reason and your judgment to navigate these difficulties."
 },
 {
   name: "page of pentacles",
   number: 65,
   cardImage: "images/rwpagepentacles.jpg",
   info: "http://www.learntarot.com/ppg.htm",
-  cardDescription:"The Page is always an intellectual card, and the suit of Pentacles is traditionally associated with introspection and conscientiousness, which may form the basis of your own personality. When acting as a portent, the Page brings good tidings for you or young people close to you, likely in academic or financial fields."
+  cardDescription:"Page of Pentacles. The Page is always an intellectual card, and the suit of Pentacles is traditionally associated with introspection and conscientiousness, which may form the basis of your own personality. When acting as a portent, the Page brings good tidings for you or young people close to you, likely in academic or financial fields."
 },
 {
   name: "knight of wands",
@@ -482,7 +482,7 @@ cardDescription: "Depending on your own nature, the Hierophant can mean very dif
   number: 68,
   cardImage: "images/rwknightswords.jpg",
   info: "http://www.learntarot.com/skn.htm",
-  cardDescription:"If you or someone close to you is represented by the Knight of Swords, beware. It is symbolic of a forceful personality, one which combines zealous dedication to success with razor-sharp intellect. However, whether in the form of a companion or your own inner nature, these same attributes can give rise to a formidable enemy. When it refers instead to your circumstances, the Knight suggests you are headed for turbulent times, which can be most successfully faced with decisive action on your part."
+  cardDescription:"Knight of Swords. If you or someone close to you is represented by the Knight of Swords, beware. It is symbolic of a forceful personality, one which combines zealous dedication to success with razor-sharp intellect. However, whether in the form of a companion or your own inner nature, these same attributes can give rise to a formidable enemy. When it refers instead to your circumstances, the Knight suggests you are headed for turbulent times, which can be most successfully faced with decisive action on your part."
 },
 {
   name: "knight of pentacles",
@@ -503,7 +503,7 @@ cardDescription: "Depending on your own nature, the Hierophant can mean very dif
   number: 71,
   cardImage: "images/rwqueencups.jpg",
   info: "http://www.learntarot.com/cqn.htm",
-  cardDescription:"Sensitivity and an affectionate nature are traditionally associated with the Queen of Cups, who is the emotionally open balance to the King. Despite her open nature, you will still find her influence to be largely passive. Particularly for men, her presence is a reminder to stay in touch with the emotional aspects of their character. You should take her presence a gentle hand seeking to show you the power of your own inner aspects, whose power may be obscured by their quiet nature."
+  cardDescription:"Queen of Cups. Sensitivity and an affectionate nature are traditionally associated with the Queen of Cups, who is the emotionally open balance to the King. Despite her open nature, you will still find her influence to be largely passive. Particularly for men, her presence is a reminder to stay in touch with the emotional aspects of their character. You should take her presence a gentle hand seeking to show you the power of your own inner aspects, whose power may be obscured by their quiet nature."
 },
 {
   name: "queen of swords",
@@ -517,7 +517,7 @@ cardDescription: "Depending on your own nature, the Hierophant can mean very dif
   number: 73,
   cardImage: "images/rwqueenpentacles.jpg",
   info: "http://www.learntarot.com/pqn.htm",
-  cardDescription:"The Queen is a card steeped in the tradition of family, and reflects a person, usually a woman, who is financially adroit, and possess a very pragmatic, practical, nature. This person will come to your aid in some financial matter, most likely advice on how to better manage your money."
+  cardDescription:"Queen of Pentacles. The Queen is a card steeped in the tradition of family, and reflects a person, usually a woman, who is financially adroit, and possess a very pragmatic, practical, nature. This person will come to your aid in some financial matter, most likely advice on how to better manage your money."
 },
 {
   name: "king of wands",
