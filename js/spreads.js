@@ -31,7 +31,7 @@ const spreads = {
     instructions: function() {
       return (`Tarot is a divination tool used to gain clarity about any situation. For ${this.name_of_spread} spread, the first card represents ${this.card_1_name}. Use this card to gain more clarity about ${this.card_1_definition}. The second card represents ${this.card_2_name}.  Use this card to gain clarity about ${this.card_2_definition}.  The last card represents ${this.card_3_name}. Use this card to ${this.card_3_definition}.`)
     },
-    name_of_spread: "the what I think, what I feel, and what I do spread",
+    name_of_spread: "the what I think, what I feel, and what I do",
     card_1_name: "what you think",
     card_1_definition: "your current thinking as it relates to your query",
     card_2_name: "what you feel",
@@ -44,7 +44,7 @@ const spreads = {
     instructions: function() {
       return (`Tarot is a divination tool used to gain clarity about any situation. For ${this.name_of_spread} spread, the first card represents ${this.card_1_name}. Use this card to gain more clarity about ${this.card_1_definition}. The second card represents ${this.card_2_name}.  Use this card to gain clarity about ${this.card_2_definition}.  The last card represents ${this.card_3_name}. Use this card to ${this.card_3_definition}.`)
     },
-    name_of_spread: "the strength, weakness, and advice spread",
+    name_of_spread: "the strength, weakness, and advice",
     card_1_name: "your strengths",
     card_1_definition: "your strengths with respect to your query",
     card_2_name: "your weaknesses",
@@ -57,7 +57,7 @@ const spreads = {
     instructions: function() {
       return (`Tarot is a divination tool used to gain clarity about any situation. For ${this.name_of_spread} spread, the first card represents ${this.card_1_name}. Use this card to gain more clarity about ${this.card_1_definition}. The second card represents ${this.card_2_name}.  Use this card to gain clarity about ${this.card_2_definition}.  The last card represents ${this.card_3_name}. Use this card to ${this.card_3_definition}.`)
     },
-    name_of_spread: "the option 1, option 2, and how to choose spread",
+    name_of_spread: "the option 1, option 2, and how to choose",
     card_1_name: "option 1",
     card_1_definition: "the first option of your query",
     card_2_name: "option 2",

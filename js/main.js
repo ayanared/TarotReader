@@ -33,28 +33,33 @@ const selectSpread = function (spread_type) {
   $('.card-3-name').html(selected_spread.card_3_name);
   $('.card-3-definition').html(selected_spread.card_3_definition);
 }
-const cardInfoString = function(selected_spread) {
+const cardInfoString = function(selected_spread, card_num) {
   const spread_type = spreads[selected_spread];
-  let card_info = `The name of your spread type is ${spread_type.name_of_spread}.`;
-  for(let i = 1; i < (spread_type.num_of_cards +1); i++){
-    card_info += ` Card ${i} represents ${spread_type[`card_${i}_name`]}. `;
-    card_info += $(`#description-${i-1}`).html()
+  let cardInfo = ` Card ${card_num} represents ${spread_type[`card_${card_num}_name`]}.`
+                + ` ${$(`#description-${card_num-1}`).html()}\n`;
 
-  }
-  return card_info
+  return cardInfo;
 }
 const saveSpread = function(selected_spread) {  
   const dateString = moment(Date.now()).format('M-D-YYYY');
   const doc = new jsPDF();
   doc.text(dateString, 10, 10);
+  doc.text(spreads[selected_spread].name_of_spread, 10, 20)
+  doc.text('', 10, 30 )
+  
+  let line_number = 6;
+  const spread_type = spreads[selected_spread];
+  
+  let cardsInfo = '';
+  for(let i = 1; i < (spread_type.num_of_cards +1); i++){
+    cardsInfo += cardInfoString(selected_spread, i);
+  }
+  const cardString = cardsInfo.match(/.{1,100}/g);
   doc.setFontSize(10);
-  const cardString = cardInfoString(selected_spread).match(/.{1,100}/g);
-  let line_number = 4;
   cardString.forEach(function(stringSection) {
     doc.text(stringSection, 10, line_number * 5);
     line_number ++;
   })
-  console.log(cardString)
   doc.save(`${dateString}-tarot-reading.pdf`)
 }
 
