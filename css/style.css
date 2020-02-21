@@ -1,8 +1,11 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
 body {
   text-align: center;
   margin: 0;
   font-family: 'Lato', san-serif;
-
 }
 header{
   background-color: #212F3D;
@@ -71,6 +74,9 @@ footer {
   font-size: 14px;
   letter-spacing: .08em;
   font-weight: 500;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
 }
 
 #link-0, #link-1, #link-2 {
@@ -90,22 +96,9 @@ footer {
   float: left;
 }
 
-.message {
-  float: right;
-}
-
 #about-Ayana {
   font-family: 'Indie Flower', cursive;
 }
 .card-descriptions {
   padding: 10px 30px;
-}
-
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  content: " ";
-  clear: both;
-  height: 0;
-  font-size: 0;
 }
