@@ -90,14 +90,6 @@ footer {
   float: right;
 }
 
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  content: " ";
-  clear: both;
-  height: 0;
-  font-size: 0;
-}
 #about-Ayana {
   font-family: 'Indie Flower', cursive;
 }
