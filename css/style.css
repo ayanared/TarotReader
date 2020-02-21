@@ -13,8 +13,10 @@ nav {
   padding:20px 0;
 }
 main {
-  width: 850px;
-  margin: 35px auto 0;
+  margin: 50px 100px 0px;
+}
+.card-holder {
+  margin: 50px 200px 75px;
 }
 
 img{

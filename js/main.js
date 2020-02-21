@@ -15,7 +15,6 @@ const createBoard = function (num_of_cards) {
   for (let i = 0; i < num_of_cards; i++) {
     const cardElement = $(`<img src='images/back_of_card.png'
                                 id='card-pos-${i}'
-                                class='d-flex'
                                 data-id=${i}></img>`);
     cardElement.one('click', function() {
       flipCard(i)
