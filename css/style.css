@@ -24,6 +24,10 @@ main {
   padding-bottom: 25px;
 }
 
+button {
+  margin: 10px;
+}
+
 .img-div {
   width: 150px;
   height: 255px;
